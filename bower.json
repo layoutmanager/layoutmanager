@@ -1,0 +1,10 @@
+{
+  "name": "layoutmanager",
+  "version": "1.0.0",
+  "devDependencies": {
+    "lodash-amd": "~2.2.1",
+    "mocha": "~1.14.0",
+    "chai": "~1.8.0",
+    "sinon": "~1.7.3"
+  }
+}

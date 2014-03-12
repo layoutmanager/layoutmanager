@@ -1,0 +1,1650 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/tim/git/layoutmanager',
+5 verbose install   [ 'lodash',
+5 verbose install     'grunt',
+5 verbose install     'mocha',
+5 verbose install     'karma',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-requirejs',
+5 verbose install     'grunt-karma',
+5 verbose install     'karma-mocha',
+5 verbose install     'karma-coverage',
+5 verbose install     'karma-phantomjs-launcher' ] ]
+6 info preinstall layoutmanager@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'mocha@~1.14.0', null ]
+9 verbose cache add name=undefined spec="mocha@~1.14.0" args=["mocha@~1.14.0",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'mocha@~1.14.0',
+10 verbose parsed url   path: 'mocha@~1.14.0',
+10 verbose parsed url   href: 'mocha@~1.14.0' }
+11 verbose cache add name="mocha" spec="~1.14.0" args=["mocha","~1.14.0"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '~1.14.0',
+12 verbose parsed url   path: '~1.14.0',
+12 verbose parsed url   href: '~1.14.0' }
+13 verbose addNamed [ 'mocha', '~1.14.0' ]
+14 verbose addNamed [ null, '>=1.14.0-0 <1.15.0-0' ]
+15 verbose cache add [ 'lodash@~2.2.1', null ]
+16 verbose cache add name=undefined spec="lodash@~2.2.1" args=["lodash@~2.2.1",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'lodash@~2.2.1',
+17 verbose parsed url   path: 'lodash@~2.2.1',
+17 verbose parsed url   href: 'lodash@~2.2.1' }
+18 verbose cache add name="lodash" spec="~2.2.1" args=["lodash","~2.2.1"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '~2.2.1',
+19 verbose parsed url   path: '~2.2.1',
+19 verbose parsed url   href: '~2.2.1' }
+20 verbose addNamed [ 'lodash', '~2.2.1' ]
+21 verbose addNamed [ null, '>=2.2.1-0 <2.3.0-0' ]
+22 verbose cache add [ 'grunt@~0.4.1', null ]
+23 verbose cache add name=undefined spec="grunt@~0.4.1" args=["grunt@~0.4.1",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'grunt@~0.4.1',
+24 verbose parsed url   path: 'grunt@~0.4.1',
+24 verbose parsed url   href: 'grunt@~0.4.1' }
+25 verbose cache add name="grunt" spec="~0.4.1" args=["grunt","~0.4.1"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '~0.4.1',
+26 verbose parsed url   path: '~0.4.1',
+26 verbose parsed url   href: '~0.4.1' }
+27 verbose addNamed [ 'grunt', '~0.4.1' ]
+28 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+29 silly lockFile e9395643-mocha-1-14-0 mocha@~1.14.0
+30 verbose lock mocha@~1.14.0 /home/tim/.npm/e9395643-mocha-1-14-0.lock
+31 silly lockFile c46ab6b5-lodash-2-2-1 lodash@~2.2.1
+32 verbose lock lodash@~2.2.1 /home/tim/.npm/c46ab6b5-lodash-2-2-1.lock
+33 verbose cache add [ 'karma@~0.9.2', null ]
+34 verbose cache add name=undefined spec="karma@~0.9.2" args=["karma@~0.9.2",null]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'karma@~0.9.2',
+35 verbose parsed url   path: 'karma@~0.9.2',
+35 verbose parsed url   href: 'karma@~0.9.2' }
+36 verbose cache add name="karma" spec="~0.9.2" args=["karma","~0.9.2"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '~0.9.2',
+37 verbose parsed url   path: '~0.9.2',
+37 verbose parsed url   href: '~0.9.2' }
+38 verbose addNamed [ 'karma', '~0.9.2' ]
+39 verbose addNamed [ null, '>=0.9.2-0 <0.10.0-0' ]
+40 silly lockFile ded05966-karma-0-9-2 karma@~0.9.2
+41 verbose lock karma@~0.9.2 /home/tim/.npm/ded05966-karma-0-9-2.lock
+42 verbose cache add [ 'grunt-contrib-clean@~0.4.1', null ]
+43 verbose cache add name=undefined spec="grunt-contrib-clean@~0.4.1" args=["grunt-contrib-clean@~0.4.1",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'grunt-contrib-clean@~0.4.1',
+44 verbose parsed url   path: 'grunt-contrib-clean@~0.4.1',
+44 verbose parsed url   href: 'grunt-contrib-clean@~0.4.1' }
+45 verbose cache add name="grunt-contrib-clean" spec="~0.4.1" args=["grunt-contrib-clean","~0.4.1"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~0.4.1',
+46 verbose parsed url   path: '~0.4.1',
+46 verbose parsed url   href: '~0.4.1' }
+47 verbose addNamed [ 'grunt-contrib-clean', '~0.4.1' ]
+48 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+49 silly lockFile 6475a015-grunt-contrib-clean-0-4-1 grunt-contrib-clean@~0.4.1
+50 verbose lock grunt-contrib-clean@~0.4.1 /home/tim/.npm/6475a015-grunt-contrib-clean-0-4-1.lock
+51 verbose cache add [ 'grunt-contrib-jshint@~0.7.2', null ]
+52 verbose cache add name=undefined spec="grunt-contrib-jshint@~0.7.2" args=["grunt-contrib-jshint@~0.7.2",null]
+53 verbose parsed url { protocol: null,
+53 verbose parsed url   slashes: null,
+53 verbose parsed url   auth: null,
+53 verbose parsed url   host: null,
+53 verbose parsed url   port: null,
+53 verbose parsed url   hostname: null,
+53 verbose parsed url   hash: null,
+53 verbose parsed url   search: null,
+53 verbose parsed url   query: null,
+53 verbose parsed url   pathname: 'grunt-contrib-jshint@~0.7.2',
+53 verbose parsed url   path: 'grunt-contrib-jshint@~0.7.2',
+53 verbose parsed url   href: 'grunt-contrib-jshint@~0.7.2' }
+54 verbose cache add name="grunt-contrib-jshint" spec="~0.7.2" args=["grunt-contrib-jshint","~0.7.2"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '~0.7.2',
+55 verbose parsed url   path: '~0.7.2',
+55 verbose parsed url   href: '~0.7.2' }
+56 verbose addNamed [ 'grunt-contrib-jshint', '~0.7.2' ]
+57 verbose addNamed [ null, '>=0.7.2-0 <0.8.0-0' ]
+58 silly lockFile 31601194-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@~0.7.2
+59 verbose lock grunt-contrib-jshint@~0.7.2 /home/tim/.npm/31601194-grunt-contrib-jshint-0-7-2.lock
+60 verbose cache add [ 'grunt-contrib-requirejs@~0.4.0', null ]
+61 verbose cache add name=undefined spec="grunt-contrib-requirejs@~0.4.0" args=["grunt-contrib-requirejs@~0.4.0",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'grunt-contrib-requirejs@~0.4.0',
+62 verbose parsed url   path: 'grunt-contrib-requirejs@~0.4.0',
+62 verbose parsed url   href: 'grunt-contrib-requirejs@~0.4.0' }
+63 verbose cache add name="grunt-contrib-requirejs" spec="~0.4.0" args=["grunt-contrib-requirejs","~0.4.0"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '~0.4.0',
+64 verbose parsed url   path: '~0.4.0',
+64 verbose parsed url   href: '~0.4.0' }
+65 verbose addNamed [ 'grunt-contrib-requirejs', '~0.4.0' ]
+66 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+67 silly lockFile de923408-grunt-contrib-requirejs-0-4-0 grunt-contrib-requirejs@~0.4.0
+68 verbose lock grunt-contrib-requirejs@~0.4.0 /home/tim/.npm/de923408-grunt-contrib-requirejs-0-4-0.lock
+69 verbose cache add [ 'grunt-karma@~0.5.1', null ]
+70 verbose cache add name=undefined spec="grunt-karma@~0.5.1" args=["grunt-karma@~0.5.1",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'grunt-karma@~0.5.1',
+71 verbose parsed url   path: 'grunt-karma@~0.5.1',
+71 verbose parsed url   href: 'grunt-karma@~0.5.1' }
+72 verbose cache add name="grunt-karma" spec="~0.5.1" args=["grunt-karma","~0.5.1"]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: '~0.5.1',
+73 verbose parsed url   path: '~0.5.1',
+73 verbose parsed url   href: '~0.5.1' }
+74 verbose addNamed [ 'grunt-karma', '~0.5.1' ]
+75 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+76 silly lockFile 21c0de9e-grunt-karma-0-5-1 grunt-karma@~0.5.1
+77 verbose lock grunt-karma@~0.5.1 /home/tim/.npm/21c0de9e-grunt-karma-0-5-1.lock
+78 silly lockFile 766a3bd3-grunt-0-4-1 grunt@~0.4.1
+79 verbose lock grunt@~0.4.1 /home/tim/.npm/766a3bd3-grunt-0-4-1.lock
+80 verbose cache add [ 'karma-mocha@~0.1.1', null ]
+81 verbose cache add name=undefined spec="karma-mocha@~0.1.1" args=["karma-mocha@~0.1.1",null]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: 'karma-mocha@~0.1.1',
+82 verbose parsed url   path: 'karma-mocha@~0.1.1',
+82 verbose parsed url   href: 'karma-mocha@~0.1.1' }
+83 verbose cache add name="karma-mocha" spec="~0.1.1" args=["karma-mocha","~0.1.1"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '~0.1.1',
+84 verbose parsed url   path: '~0.1.1',
+84 verbose parsed url   href: '~0.1.1' }
+85 verbose addNamed [ 'karma-mocha', '~0.1.1' ]
+86 verbose addNamed [ null, '>=0.1.1-0 <0.2.0-0' ]
+87 silly lockFile 5e411157-karma-mocha-0-1-1 karma-mocha@~0.1.1
+88 verbose lock karma-mocha@~0.1.1 /home/tim/.npm/5e411157-karma-mocha-0-1-1.lock
+89 verbose cache add [ 'karma-coverage@~0.0.2', null ]
+90 verbose cache add name=undefined spec="karma-coverage@~0.0.2" args=["karma-coverage@~0.0.2",null]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'karma-coverage@~0.0.2',
+91 verbose parsed url   path: 'karma-coverage@~0.0.2',
+91 verbose parsed url   href: 'karma-coverage@~0.0.2' }
+92 verbose cache add name="karma-coverage" spec="~0.0.2" args=["karma-coverage","~0.0.2"]
+93 verbose parsed url { protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '~0.0.2',
+93 verbose parsed url   path: '~0.0.2',
+93 verbose parsed url   href: '~0.0.2' }
+94 verbose addNamed [ 'karma-coverage', '~0.0.2' ]
+95 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+96 silly lockFile d51cabef-karma-coverage-0-0-2 karma-coverage@~0.0.2
+97 verbose lock karma-coverage@~0.0.2 /home/tim/.npm/d51cabef-karma-coverage-0-0-2.lock
+98 verbose cache add [ 'karma-phantomjs-launcher@~0.0.2', null ]
+99 verbose cache add name=undefined spec="karma-phantomjs-launcher@~0.0.2" args=["karma-phantomjs-launcher@~0.0.2",null]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: 'karma-phantomjs-launcher@~0.0.2',
+100 verbose parsed url   path: 'karma-phantomjs-launcher@~0.0.2',
+100 verbose parsed url   href: 'karma-phantomjs-launcher@~0.0.2' }
+101 verbose cache add name="karma-phantomjs-launcher" spec="~0.0.2" args=["karma-phantomjs-launcher","~0.0.2"]
+102 verbose parsed url { protocol: null,
+102 verbose parsed url   slashes: null,
+102 verbose parsed url   auth: null,
+102 verbose parsed url   host: null,
+102 verbose parsed url   port: null,
+102 verbose parsed url   hostname: null,
+102 verbose parsed url   hash: null,
+102 verbose parsed url   search: null,
+102 verbose parsed url   query: null,
+102 verbose parsed url   pathname: '~0.0.2',
+102 verbose parsed url   path: '~0.0.2',
+102 verbose parsed url   href: '~0.0.2' }
+103 verbose addNamed [ 'karma-phantomjs-launcher', '~0.0.2' ]
+104 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+105 silly lockFile 81b32b8a-karma-phantomjs-launcher-0-0-2 karma-phantomjs-launcher@~0.0.2
+106 verbose lock karma-phantomjs-launcher@~0.0.2 /home/tim/.npm/81b32b8a-karma-phantomjs-launcher-0-0-2.lock
+107 silly addNameRange { name: 'mocha', range: '>=1.14.0-0 <1.15.0-0', hasData: false }
+108 silly addNameRange { name: 'lodash', range: '>=2.2.1-0 <2.3.0-0', hasData: false }
+109 silly addNameRange { name: 'karma', range: '>=0.9.2-0 <0.10.0-0', hasData: false }
+110 silly addNameRange { name: 'grunt-contrib-clean',
+110 silly addNameRange   range: '>=0.4.1-0 <0.5.0-0',
+110 silly addNameRange   hasData: false }
+111 silly addNameRange { name: 'grunt-contrib-jshint',
+111 silly addNameRange   range: '>=0.7.2-0 <0.8.0-0',
+111 silly addNameRange   hasData: false }
+112 silly addNameRange { name: 'grunt-contrib-requirejs',
+112 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+112 silly addNameRange   hasData: false }
+113 silly addNameRange { name: 'grunt-karma',
+113 silly addNameRange   range: '>=0.5.1-0 <0.6.0-0',
+113 silly addNameRange   hasData: false }
+114 silly addNameRange { name: 'grunt', range: '>=0.4.1-0 <0.5.0-0', hasData: false }
+115 verbose url raw lodash
+116 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './lodash' ]
+117 verbose url resolved http://10.0.0.179:5984/registry/lodash
+118 info trying registry request attempt 1 at 11:52:29
+119 http GET http://10.0.0.179:5984/registry/lodash
+120 verbose url raw karma
+121 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './karma' ]
+122 verbose url resolved http://10.0.0.179:5984/registry/karma
+123 info trying registry request attempt 1 at 11:52:29
+124 http GET http://10.0.0.179:5984/registry/karma
+125 verbose url raw grunt-contrib-clean
+126 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './grunt-contrib-clean' ]
+127 verbose url resolved http://10.0.0.179:5984/registry/grunt-contrib-clean
+128 info trying registry request attempt 1 at 11:52:29
+129 http GET http://10.0.0.179:5984/registry/grunt-contrib-clean
+130 verbose url raw grunt-contrib-jshint
+131 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './grunt-contrib-jshint' ]
+132 verbose url resolved http://10.0.0.179:5984/registry/grunt-contrib-jshint
+133 info trying registry request attempt 1 at 11:52:29
+134 http GET http://10.0.0.179:5984/registry/grunt-contrib-jshint
+135 verbose url raw grunt-contrib-requirejs
+136 verbose url resolving [ 'http://10.0.0.179:5984/registry/',
+136 verbose url resolving   './grunt-contrib-requirejs' ]
+137 verbose url resolved http://10.0.0.179:5984/registry/grunt-contrib-requirejs
+138 info trying registry request attempt 1 at 11:52:29
+139 http GET http://10.0.0.179:5984/registry/grunt-contrib-requirejs
+140 silly addNameRange { name: 'karma-mocha',
+140 silly addNameRange   range: '>=0.1.1-0 <0.2.0-0',
+140 silly addNameRange   hasData: false }
+141 silly addNameRange { name: 'karma-coverage',
+141 silly addNameRange   range: '>=0.0.2-0 <0.1.0-0',
+141 silly addNameRange   hasData: false }
+142 silly addNameRange { name: 'karma-phantomjs-launcher',
+142 silly addNameRange   range: '>=0.0.2-0 <0.1.0-0',
+142 silly addNameRange   hasData: false }
+143 verbose url raw grunt-karma
+144 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './grunt-karma' ]
+145 verbose url resolved http://10.0.0.179:5984/registry/grunt-karma
+146 info trying registry request attempt 1 at 11:52:29
+147 http GET http://10.0.0.179:5984/registry/grunt-karma
+148 verbose url raw grunt
+149 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './grunt' ]
+150 verbose url resolved http://10.0.0.179:5984/registry/grunt
+151 info trying registry request attempt 1 at 11:52:29
+152 http GET http://10.0.0.179:5984/registry/grunt
+153 verbose url raw karma-mocha
+154 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './karma-mocha' ]
+155 verbose url resolved http://10.0.0.179:5984/registry/karma-mocha
+156 info trying registry request attempt 1 at 11:52:29
+157 http GET http://10.0.0.179:5984/registry/karma-mocha
+158 verbose url raw karma-coverage
+159 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './karma-coverage' ]
+160 verbose url resolved http://10.0.0.179:5984/registry/karma-coverage
+161 info trying registry request attempt 1 at 11:52:29
+162 http GET http://10.0.0.179:5984/registry/karma-coverage
+163 verbose url raw karma-phantomjs-launcher
+164 verbose url resolving [ 'http://10.0.0.179:5984/registry/',
+164 verbose url resolving   './karma-phantomjs-launcher' ]
+165 verbose url resolved http://10.0.0.179:5984/registry/karma-phantomjs-launcher
+166 info trying registry request attempt 1 at 11:52:29
+167 http GET http://10.0.0.179:5984/registry/karma-phantomjs-launcher
+168 verbose url raw mocha
+169 verbose url resolving [ 'http://10.0.0.179:5984/registry/', './mocha' ]
+170 verbose url resolved http://10.0.0.179:5984/registry/mocha
+171 info trying registry request attempt 1 at 11:52:29
+172 verbose etag "303-f7ca564a3a5cf3976173aaa94057984c"
+173 http GET http://10.0.0.179:5984/registry/mocha
+174 http 200 http://10.0.0.179:5984/registry/grunt-contrib-requirejs
+175 silly registry.get cb [ 200,
+175 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+175 silly registry.get     etag: '"36-8cfb8ffcf92f9a76683e624665bafc1a"',
+175 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+175 silly registry.get     'content-type': 'application/json',
+175 silly registry.get     'content-length': '18418',
+175 silly registry.get     'cache-control': 'must-revalidate' } ]
+176 silly addNameRange number 2 { name: 'grunt-contrib-requirejs',
+176 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+176 silly addNameRange   hasData: true }
+177 silly addNameRange versions [ 'grunt-contrib-requirejs',
+177 silly addNameRange   [ '0.1.0',
+177 silly addNameRange     '0.2.0',
+177 silly addNameRange     '0.3.0',
+177 silly addNameRange     '0.3.2',
+177 silly addNameRange     '0.3.3',
+177 silly addNameRange     '0.3.4',
+177 silly addNameRange     '0.4.0rc7',
+177 silly addNameRange     '0.4.0',
+177 silly addNameRange     '0.4.1' ] ]
+178 verbose addNamed [ 'grunt-contrib-requirejs', '0.4.1' ]
+179 verbose addNamed [ '0.4.1', '0.4.1' ]
+180 silly lockFile 5da43736-grunt-contrib-requirejs-0-4-1 grunt-contrib-requirejs@0.4.1
+181 verbose lock grunt-contrib-requirejs@0.4.1 /home/tim/.npm/5da43736-grunt-contrib-requirejs-0-4-1.lock
+182 silly lockFile a2538328-runt-contrib-requirejs-0-4-1-tgz https://fullfatdb.npmjs.com/registry/grunt-contrib-requirejs/grunt-contrib-requirejs-0.4.1.tgz
+183 verbose lock https://fullfatdb.npmjs.com/registry/grunt-contrib-requirejs/grunt-contrib-requirejs-0.4.1.tgz /home/tim/.npm/a2538328-runt-contrib-requirejs-0-4-1-tgz.lock
+184 http 200 http://10.0.0.179:5984/registry/grunt-contrib-clean
+185 silly registry.get cb [ 200,
+185 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+185 silly registry.get     etag: '"46-02a1b186f20c3e9c21535b5064a6bb6e"',
+185 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+185 silly registry.get     'content-type': 'application/json',
+185 silly registry.get     'content-length': '21798',
+185 silly registry.get     'cache-control': 'must-revalidate' } ]
+186 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/grunt-contrib-requirejs/grunt-contrib-requirejs-0.4.1.tgz',
+186 verbose addRemoteTarball   '862ba167141b8a8f36af5444feab3272bb8cf4bd' ]
+187 http 200 http://10.0.0.179:5984/registry/grunt-contrib-jshint
+188 silly registry.get cb [ 200,
+188 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+188 silly registry.get     etag: '"63-451112d801de777c2ec4b6db49fb44e8"',
+188 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+188 silly registry.get     'content-type': 'application/json',
+188 silly registry.get     'content-length': '47278',
+188 silly registry.get     'cache-control': 'must-revalidate' } ]
+189 info retry fetch attempt 1 at 11:52:29
+190 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/tmp.tgz
+191 http GET https://fullfatdb.npmjs.com/registry/grunt-contrib-requirejs/grunt-contrib-requirejs-0.4.1.tgz
+192 silly addNameRange number 2 { name: 'grunt-contrib-clean',
+192 silly addNameRange   range: '>=0.4.1-0 <0.5.0-0',
+192 silly addNameRange   hasData: true }
+193 silly addNameRange versions [ 'grunt-contrib-clean',
+193 silly addNameRange   [ '0.1.0',
+193 silly addNameRange     '0.2.0',
+193 silly addNameRange     '0.3.0',
+193 silly addNameRange     '0.4.0a',
+193 silly addNameRange     '0.4.0rc5',
+193 silly addNameRange     '0.4.0rc6',
+193 silly addNameRange     '0.3.1',
+193 silly addNameRange     '0.3.2',
+193 silly addNameRange     '0.4.0',
+193 silly addNameRange     '0.4.1',
+193 silly addNameRange     '0.5.0' ] ]
+194 verbose addNamed [ 'grunt-contrib-clean', '0.4.1' ]
+195 verbose addNamed [ '0.4.1', '0.4.1' ]
+196 silly lockFile d4970290-grunt-contrib-clean-0-4-1 grunt-contrib-clean@0.4.1
+197 verbose lock grunt-contrib-clean@0.4.1 /home/tim/.npm/d4970290-grunt-contrib-clean-0-4-1.lock
+198 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+198 silly addNameRange   range: '>=0.7.2-0 <0.8.0-0',
+198 silly addNameRange   hasData: true }
+199 silly addNameRange versions [ 'grunt-contrib-jshint',
+199 silly addNameRange   [ '0.1.0',
+199 silly addNameRange     '0.1.1rc5',
+199 silly addNameRange     '0.1.1rc6',
+199 silly addNameRange     '0.1.1',
+199 silly addNameRange     '0.2.0',
+199 silly addNameRange     '0.3.0',
+199 silly addNameRange     '0.4.0',
+199 silly addNameRange     '0.4.1',
+199 silly addNameRange     '0.4.2',
+199 silly addNameRange     '0.4.3',
+199 silly addNameRange     '0.5.0',
+199 silly addNameRange     '0.5.1',
+199 silly addNameRange     '0.5.2',
+199 silly addNameRange     '0.5.3',
+199 silly addNameRange     '0.5.4',
+199 silly addNameRange     '0.6.0',
+199 silly addNameRange     '0.6.1',
+199 silly addNameRange     '0.6.2',
+199 silly addNameRange     '0.6.3',
+199 silly addNameRange     '0.6.4',
+199 silly addNameRange     '0.6.5',
+199 silly addNameRange     '0.7.0',
+199 silly addNameRange     '0.7.1',
+199 silly addNameRange     '0.7.2',
+199 silly addNameRange     '0.8.0' ] ]
+200 verbose addNamed [ 'grunt-contrib-jshint', '0.7.2' ]
+201 verbose addNamed [ '0.7.2', '0.7.2' ]
+202 silly lockFile ee270f24-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@0.7.2
+203 verbose lock grunt-contrib-jshint@0.7.2 /home/tim/.npm/ee270f24-grunt-contrib-jshint-0-7-2.lock
+204 silly lockFile 15abd1cf-an-grunt-contrib-clean-0-4-1-tgz https://fullfatdb.npmjs.com/registry/grunt-contrib-clean/grunt-contrib-clean-0.4.1.tgz
+205 verbose lock https://fullfatdb.npmjs.com/registry/grunt-contrib-clean/grunt-contrib-clean-0.4.1.tgz /home/tim/.npm/15abd1cf-an-grunt-contrib-clean-0-4-1-tgz.lock
+206 silly lockFile f1732994-t-grunt-contrib-jshint-0-7-2-tgz http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+207 verbose lock http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz /home/tim/.npm/f1732994-t-grunt-contrib-jshint-0-7-2-tgz.lock
+208 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/grunt-contrib-clean/grunt-contrib-clean-0.4.1.tgz',
+208 verbose addRemoteTarball   '7f8f46e2f2a7187e9c2d083ab30262aa6a64e334' ]
+209 verbose addRemoteTarball [ 'http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz',
+209 verbose addRemoteTarball   '29859ddcf42e7f6c54c43fe75da3c4bd90384a8e' ]
+210 info retry fetch attempt 1 at 11:52:29
+211 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/tmp.tgz
+212 info retry fetch attempt 1 at 11:52:29
+213 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.09229402360506356/tmp.tgz
+214 http GET https://fullfatdb.npmjs.com/registry/grunt-contrib-clean/grunt-contrib-clean-0.4.1.tgz
+215 http GET http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+216 http 200 http://10.0.0.179:5984/registry/lodash
+217 silly registry.get cb [ 200,
+217 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+217 silly registry.get     etag: '"666-8996addf126c04a943abc9b4985210ef"',
+217 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+217 silly registry.get     'content-type': 'application/json',
+217 silly registry.get     'content-length': '75510',
+217 silly registry.get     'cache-control': 'must-revalidate' } ]
+218 silly addNameRange number 2 { name: 'lodash', range: '>=2.2.1-0 <2.3.0-0', hasData: true }
+219 silly addNameRange versions [ 'lodash',
+219 silly addNameRange   [ '0.1.0',
+219 silly addNameRange     '0.2.0',
+219 silly addNameRange     '0.2.1',
+219 silly addNameRange     '0.2.2',
+219 silly addNameRange     '0.3.0',
+219 silly addNameRange     '0.3.1',
+219 silly addNameRange     '0.3.2',
+219 silly addNameRange     '0.4.0',
+219 silly addNameRange     '0.4.1',
+219 silly addNameRange     '0.4.2',
+219 silly addNameRange     '0.5.0-rc.1',
+219 silly addNameRange     '0.5.0',
+219 silly addNameRange     '0.5.1',
+219 silly addNameRange     '0.5.2',
+219 silly addNameRange     '0.6.0',
+219 silly addNameRange     '0.6.1',
+219 silly addNameRange     '0.7.0',
+219 silly addNameRange     '0.8.0',
+219 silly addNameRange     '0.8.1',
+219 silly addNameRange     '0.8.2',
+219 silly addNameRange     '0.9.0',
+219 silly addNameRange     '0.9.1',
+219 silly addNameRange     '0.9.2',
+219 silly addNameRange     '0.10.0',
+219 silly addNameRange     '1.0.0-rc.1',
+219 silly addNameRange     '1.0.0-rc.2',
+219 silly addNameRange     '1.0.0-rc.3',
+219 silly addNameRange     '1.0.0',
+219 silly addNameRange     '1.0.1',
+219 silly addNameRange     '1.1.0',
+219 silly addNameRange     '1.1.1',
+219 silly addNameRange     '1.2.0',
+219 silly addNameRange     '1.2.1',
+219 silly addNameRange     '1.3.0',
+219 silly addNameRange     '1.3.1',
+219 silly addNameRange     '2.0.0',
+219 silly addNameRange     '2.1.0',
+219 silly addNameRange     '2.2.0',
+219 silly addNameRange     '2.2.1',
+219 silly addNameRange     '2.3.0',
+219 silly addNameRange     '2.4.0',
+219 silly addNameRange     '2.4.1' ] ]
+220 verbose addNamed [ 'lodash', '2.2.1' ]
+221 verbose addNamed [ '2.2.1', '2.2.1' ]
+222 silly lockFile 065ff042-lodash-2-2-1 lodash@2.2.1
+223 verbose lock lodash@2.2.1 /home/tim/.npm/065ff042-lodash-2-2-1.lock
+224 silly lockFile cd54c922-registry-lodash-lodash-2-2-1-tgz https://fullfatdb.npmjs.com/registry/lodash/lodash-2.2.1.tgz
+225 verbose lock https://fullfatdb.npmjs.com/registry/lodash/lodash-2.2.1.tgz /home/tim/.npm/cd54c922-registry-lodash-lodash-2-2-1-tgz.lock
+226 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/lodash/lodash-2.2.1.tgz',
+226 verbose addRemoteTarball   'ca935fd14ab3c0c872abacf198b9cda501440867' ]
+227 info retry fetch attempt 1 at 11:52:29
+228 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/tmp.tgz
+229 http GET https://fullfatdb.npmjs.com/registry/lodash/lodash-2.2.1.tgz
+230 error fetch failed http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+231 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+232 http 200 http://10.0.0.179:5984/registry/karma-mocha
+233 silly registry.get cb [ 200,
+233 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+233 silly registry.get     etag: '"13-6341c53b1286f17c503352ee04342c24"',
+233 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+233 silly registry.get     'content-type': 'application/json',
+233 silly registry.get     'content-length': '11533',
+233 silly registry.get     'cache-control': 'must-revalidate' } ]
+234 silly addNameRange number 2 { name: 'karma-mocha',
+234 silly addNameRange   range: '>=0.1.1-0 <0.2.0-0',
+234 silly addNameRange   hasData: true }
+235 silly addNameRange versions [ 'karma-mocha',
+235 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.1.0', '0.1.1' ] ]
+236 verbose addNamed [ 'karma-mocha', '0.1.1' ]
+237 verbose addNamed [ '0.1.1', '0.1.1' ]
+238 silly lockFile e113c83e-karma-mocha-0-1-1 karma-mocha@0.1.1
+239 verbose lock karma-mocha@0.1.1 /home/tim/.npm/e113c83e-karma-mocha-0-1-1.lock
+240 silly lockFile 8179585b-arma-mocha-karma-mocha-0-1-1-tgz https://fullfatdb.npmjs.com/registry/karma-mocha/karma-mocha-0.1.1.tgz
+241 verbose lock https://fullfatdb.npmjs.com/registry/karma-mocha/karma-mocha-0.1.1.tgz /home/tim/.npm/8179585b-arma-mocha-karma-mocha-0-1-1-tgz.lock
+242 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/karma-mocha/karma-mocha-0.1.1.tgz',
+242 verbose addRemoteTarball   '5edddb3e2d2c6fd47e9ad26f0af1595fe852c756' ]
+243 info retry fetch attempt 1 at 11:52:30
+244 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/tmp.tgz
+245 http GET https://fullfatdb.npmjs.com/registry/karma-mocha/karma-mocha-0.1.1.tgz
+246 http 200 http://10.0.0.179:5984/registry/karma-coverage
+247 silly registry.get cb [ 200,
+247 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+247 silly registry.get     etag: '"27-5a753e83ce2b487826c8990e25188a3d"',
+247 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+247 silly registry.get     'content-type': 'application/json',
+247 silly registry.get     'content-length': '20751',
+247 silly registry.get     'cache-control': 'must-revalidate' } ]
+248 silly addNameRange number 2 { name: 'karma-coverage',
+248 silly addNameRange   range: '>=0.0.2-0 <0.1.0-0',
+248 silly addNameRange   hasData: true }
+249 silly addNameRange versions [ 'karma-coverage',
+249 silly addNameRange   [ '0.0.1',
+249 silly addNameRange     '0.0.2',
+249 silly addNameRange     '0.0.3',
+249 silly addNameRange     '0.0.4',
+249 silly addNameRange     '0.0.5',
+249 silly addNameRange     '0.1.0',
+249 silly addNameRange     '0.1.1',
+249 silly addNameRange     '0.1.2',
+249 silly addNameRange     '0.1.3',
+249 silly addNameRange     '0.1.4',
+249 silly addNameRange     '0.1.5',
+249 silly addNameRange     '0.2.0' ] ]
+250 verbose addNamed [ 'karma-coverage', '0.0.5' ]
+251 verbose addNamed [ '0.0.5', '0.0.5' ]
+252 silly lockFile 147c96d0-karma-coverage-0-0-5 karma-coverage@0.0.5
+253 verbose lock karma-coverage@0.0.5 /home/tim/.npm/147c96d0-karma-coverage-0-0-5.lock
+254 silly lockFile 2e0181bc-overage-karma-coverage-0-0-5-tgz https://fullfatdb.npmjs.com/registry/karma-coverage/karma-coverage-0.0.5.tgz
+255 verbose lock https://fullfatdb.npmjs.com/registry/karma-coverage/karma-coverage-0.0.5.tgz /home/tim/.npm/2e0181bc-overage-karma-coverage-0-0-5-tgz.lock
+256 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/karma-coverage/karma-coverage-0.0.5.tgz',
+256 verbose addRemoteTarball   '7bdce11eaf1a08d3e6d4b3002013616884a0f2b3' ]
+257 info retry fetch attempt 1 at 11:52:30
+258 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/tmp.tgz
+259 http GET https://fullfatdb.npmjs.com/registry/karma-coverage/karma-coverage-0.0.5.tgz
+260 http 200 https://fullfatdb.npmjs.com/registry/grunt-contrib-clean/grunt-contrib-clean-0.4.1.tgz
+261 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/tmp.tgz
+262 silly lockFile af09980f-9885-0-19417313253507018-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package
+263 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package /home/tim/.npm/af09980f-9885-0-19417313253507018-package.lock
+264 silly lockFile e3060646-9885-0-19417313253507018-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/tmp.tgz
+265 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/tmp.tgz /home/tim/.npm/e3060646-9885-0-19417313253507018-tmp-tgz.lock
+266 silly gunzTarPerm modes [ '755', '644' ]
+267 silly gunzTarPerm extractEntry package.json
+268 http 200 https://fullfatdb.npmjs.com/registry/grunt-contrib-requirejs/grunt-contrib-requirejs-0.4.1.tgz
+269 silly gunzTarPerm extractEntry .npmignore
+270 silly gunzTarPerm extractEntry README.md
+271 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/tmp.tgz
+272 silly lockFile ea855f3a-49832-0-1243501107674092-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package
+273 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package /home/tim/.npm/ea855f3a-49832-0-1243501107674092-package.lock
+274 silly lockFile 18621c13-49832-0-1243501107674092-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/tmp.tgz
+275 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/tmp.tgz /home/tim/.npm/18621c13-49832-0-1243501107674092-tmp-tgz.lock
+276 silly gunzTarPerm modes [ '755', '644' ]
+277 silly gunzTarPerm extractEntry Gruntfile.js
+278 silly gunzTarPerm extractEntry docs/clean-examples.md
+279 silly gunzTarPerm extractEntry package.json
+280 silly gunzTarPerm extractEntry .npmignore
+281 silly gunzTarPerm extractEntry README.md
+282 silly gunzTarPerm extractEntry docs/clean-options.md
+283 silly gunzTarPerm extractEntry docs/clean-overview.md
+284 http 200 http://10.0.0.179:5984/registry/grunt-karma
+285 silly registry.get cb [ 200,
+285 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+285 silly registry.get     etag: '"42-8f04adf4fd7d2260952d83fe8fc72967"',
+285 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+285 silly registry.get     'content-type': 'application/json',
+285 silly registry.get     'content-length': '116267',
+285 silly registry.get     'cache-control': 'must-revalidate' } ]
+286 http 200 https://fullfatdb.npmjs.com/registry/lodash/lodash-2.2.1.tgz
+287 silly gunzTarPerm extractEntry Gruntfile.js
+288 silly gunzTarPerm extractEntry CHANGELOG
+289 silly addNameRange number 2 { name: 'grunt-karma',
+289 silly addNameRange   range: '>=0.5.1-0 <0.6.0-0',
+289 silly addNameRange   hasData: true }
+290 silly addNameRange versions [ 'grunt-karma',
+290 silly addNameRange   [ '0.3.0',
+290 silly addNameRange     '0.4.0',
+290 silly addNameRange     '0.4.1',
+290 silly addNameRange     '0.4.2',
+290 silly addNameRange     '0.4.3',
+290 silly addNameRange     '0.4.4',
+290 silly addNameRange     '0.5.0',
+290 silly addNameRange     '0.4.5',
+290 silly addNameRange     '0.5.1',
+290 silly addNameRange     '0.5.2',
+290 silly addNameRange     '0.4.6',
+290 silly addNameRange     '0.5.3',
+290 silly addNameRange     '0.5.4',
+290 silly addNameRange     '0.6.0',
+290 silly addNameRange     '0.6.1',
+290 silly addNameRange     '0.7.0',
+290 silly addNameRange     '0.6.2',
+290 silly addNameRange     '0.7.1',
+290 silly addNameRange     '0.7.2' ] ]
+291 verbose addNamed [ 'grunt-karma', '0.5.4' ]
+292 verbose addNamed [ '0.5.4', '0.5.4' ]
+293 silly lockFile f1e0f8fe-grunt-karma-0-5-4 grunt-karma@0.5.4
+294 verbose lock grunt-karma@0.5.4 /home/tim/.npm/f1e0f8fe-grunt-karma-0-5-4.lock
+295 silly lockFile 5cdd71f1-runt-karma-grunt-karma-0-5-4-tgz https://fullfatdb.npmjs.com/registry/grunt-karma/grunt-karma-0.5.4.tgz
+296 verbose lock https://fullfatdb.npmjs.com/registry/grunt-karma/grunt-karma-0.5.4.tgz /home/tim/.npm/5cdd71f1-runt-karma-grunt-karma-0-5-4-tgz.lock
+297 silly gunzTarPerm extractEntry docs/overview.md
+298 silly gunzTarPerm extractEntry CONTRIBUTING.md
+299 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/grunt-karma/grunt-karma-0.5.4.tgz',
+299 verbose addRemoteTarball   'd2854bc599c195b551e9946c6b8b208781ec8dca' ]
+300 info retry fetch attempt 1 at 11:52:30
+301 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/tmp.tgz
+302 silly gunzTarPerm extractEntry CONTRIBUTING.md
+303 silly gunzTarPerm extractEntry .jshintrc
+304 http GET https://fullfatdb.npmjs.com/registry/grunt-karma/grunt-karma-0.5.4.tgz
+305 silly gunzTarPerm extractEntry .jshintrc
+306 silly gunzTarPerm extractEntry .travis.yml
+307 silly gunzTarPerm extractEntry LICENSE-MIT
+308 silly gunzTarPerm extractEntry .travis.yml
+309 silly gunzTarPerm extractEntry LICENSE-MIT
+310 silly gunzTarPerm extractEntry AUTHORS
+311 silly gunzTarPerm extractEntry CHANGELOG
+312 silly gunzTarPerm extractEntry tasks/clean.js
+313 silly gunzTarPerm extractEntry test/clean_test.js
+314 silly gunzTarPerm extractEntry test/fixtures/sample_long/long.txt
+315 silly gunzTarPerm extractEntry test/fixtures/sample_short/short.txt
+316 silly gunzTarPerm extractEntry docs/overview.md
+317 silly gunzTarPerm extractEntry docs/requirejs-examples.md
+318 silly gunzTarPerm extractEntry docs/requirejs-options.md
+319 silly gunzTarPerm extractEntry docs/requirejs-overview.md
+320 silly gunzTarPerm extractEntry AUTHORS
+321 silly gunzTarPerm extractEntry tasks/requirejs.js
+322 silly gunzTarPerm extractEntry test/requirejs_test.js
+323 silly gunzTarPerm extractEntry test/fixtures/hello.js
+324 silly gunzTarPerm extractEntry test/fixtures/project.js
+325 silly gunzTarPerm extractEntry test/fixtures/world.js
+326 http 304 http://10.0.0.179:5984/registry/mocha
+327 silly registry.get cb [ 304,
+327 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+327 silly registry.get     etag: '"303-f7ca564a3a5cf3976173aaa94057984c"',
+327 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:30 GMT',
+327 silly registry.get     'content-length': '0' } ]
+328 verbose etag mocha from cache
+329 silly addNameRange number 2 { name: 'mocha', range: '>=1.14.0-0 <1.15.0-0', hasData: true }
+330 silly addNameRange versions [ 'mocha',
+330 silly addNameRange   [ '0.0.1-alpha1',
+330 silly addNameRange     '0.0.1-alpha2',
+330 silly addNameRange     '0.0.1-alpha3',
+330 silly addNameRange     '0.0.1-alpha4',
+330 silly addNameRange     '0.0.1-alpha5',
+330 silly addNameRange     '0.0.1-alpha6',
+330 silly addNameRange     '0.0.1',
+330 silly addNameRange     '0.0.2',
+330 silly addNameRange     '0.0.3',
+330 silly addNameRange     '0.0.4',
+330 silly addNameRange     '0.0.5',
+330 silly addNameRange     '0.0.6',
+330 silly addNameRange     '0.0.7',
+330 silly addNameRange     '0.0.8',
+330 silly addNameRange     '0.1.0',
+330 silly addNameRange     '0.2.0',
+330 silly addNameRange     '0.3.0',
+330 silly addNameRange     '0.3.1',
+330 silly addNameRange     '0.3.2',
+330 silly addNameRange     '0.3.3',
+330 silly addNameRange     '0.3.4',
+330 silly addNameRange     '0.3.6',
+330 silly addNameRange     '0.4.0',
+330 silly addNameRange     '0.5.0',
+330 silly addNameRange     '0.6.0',
+330 silly addNameRange     '0.7.0',
+330 silly addNameRange     '0.7.1',
+330 silly addNameRange     '0.8.0',
+330 silly addNameRange     '0.8.1',
+330 silly addNameRange     '0.9.0',
+330 silly addNameRange     '0.10.0',
+330 silly addNameRange     '0.10.1',
+330 silly addNameRange     '0.10.2',
+330 silly addNameRange     '0.11.0',
+330 silly addNameRange     '0.12.0',
+330 silly addNameRange     '0.12.1',
+330 silly addNameRange     '0.13.0',
+330 silly addNameRange     '0.14.0',
+330 silly addNameRange     '0.14.1',
+330 silly addNameRange     '1.0.0',
+330 silly addNameRange     '1.0.1',
+330 silly addNameRange     '1.0.2',
+330 silly addNameRange     '1.0.3',
+330 silly addNameRange     '1.1.0',
+330 silly addNameRange     '1.2.0',
+330 silly addNameRange     '1.2.1',
+330 silly addNameRange     '1.2.2',
+330 silly addNameRange     '1.3.0',
+330 silly addNameRange     '1.3.1',
+330 silly addNameRange     '1.3.2',
+330 silly addNameRange     '1.4.0',
+330 silly addNameRange     '1.4.1',
+330 silly addNameRange     '1.4.2',
+330 silly addNameRange     '1.4.3',
+330 silly addNameRange     '1.5.0',
+330 silly addNameRange     '1.6.0',
+330 silly addNameRange     '1.7.0',
+330 silly addNameRange     '1.7.1',
+330 silly addNameRange     '1.7.2',
+330 silly addNameRange     '1.7.3',
+330 silly addNameRange     '1.7.4',
+330 silly addNameRange     '1.8.0',
+330 silly addNameRange     '1.8.1',
+330 silly addNameRange     '1.8.2',
+330 silly addNameRange     '1.9.0',
+330 silly addNameRange     '1.10.0',
+330 silly addNameRange     '1.11.0',
+330 silly addNameRange     '1.12.0',
+330 silly addNameRange     '1.12.1',
+330 silly addNameRange     '1.13.0',
+330 silly addNameRange     '1.14.0',
+330 silly addNameRange     '1.15.0',
+330 silly addNameRange     '1.15.1',
+330 silly addNameRange     '1.16.0',
+330 silly addNameRange     '1.16.1',
+330 silly addNameRange     '1.16.2',
+330 silly addNameRange     '1.17.0',
+330 silly addNameRange     '1.17.1' ] ]
+331 verbose addNamed [ 'mocha', '1.14.0' ]
+332 verbose addNamed [ '1.14.0', '1.14.0' ]
+333 silly lockFile ee8f1aca-mocha-1-14-0 mocha@1.14.0
+334 verbose lock mocha@1.14.0 /home/tim/.npm/ee8f1aca-mocha-1-14-0.lock
+335 http 200 http://10.0.0.179:5984/registry/karma-phantomjs-launcher
+336 silly registry.get cb [ 200,
+336 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+336 silly registry.get     etag: '"20-6469285ba3fd6bb2e15f073fe907ec07"',
+336 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:30 GMT',
+336 silly registry.get     'content-type': 'application/json',
+336 silly registry.get     'content-length': '9439',
+336 silly registry.get     'cache-control': 'must-revalidate' } ]
+337 silly addNameRange number 2 { name: 'karma-phantomjs-launcher',
+337 silly addNameRange   range: '>=0.0.2-0 <0.1.0-0',
+337 silly addNameRange   hasData: true }
+338 silly addNameRange versions [ 'karma-phantomjs-launcher',
+338 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.1.0', '0.1.1', '0.1.2' ] ]
+339 verbose addNamed [ 'karma-phantomjs-launcher', '0.0.3' ]
+340 verbose addNamed [ '0.0.3', '0.0.3' ]
+341 silly lockFile 3f25bca7-karma-phantomjs-launcher-0-0-3 karma-phantomjs-launcher@0.0.3
+342 verbose lock karma-phantomjs-launcher@0.0.3 /home/tim/.npm/3f25bca7-karma-phantomjs-launcher-0-0-3.lock
+343 silly lockFile 31015066-rma-phantomjs-launcher-0-0-3-tgz https://fullfatdb.npmjs.com/registry/karma-phantomjs-launcher/karma-phantomjs-launcher-0.0.3.tgz
+344 verbose lock https://fullfatdb.npmjs.com/registry/karma-phantomjs-launcher/karma-phantomjs-launcher-0.0.3.tgz /home/tim/.npm/31015066-rma-phantomjs-launcher-0-0-3-tgz.lock
+345 http 200 http://10.0.0.179:5984/registry/karma
+346 silly registry.get cb [ 200,
+346 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+346 silly registry.get     etag: '"204-fc95cf6d7a2e77296f94ac39c2d40001"',
+346 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+346 silly registry.get     'content-type': 'application/json',
+346 silly registry.get     'content-length': '281633',
+346 silly registry.get     'cache-control': 'must-revalidate' } ]
+347 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/karma-phantomjs-launcher/karma-phantomjs-launcher-0.0.3.tgz',
+347 verbose addRemoteTarball   '77af2e2ee0bf8a073ae29090c37163ae1808683e' ]
+348 silly lockFile af09980f-9885-0-19417313253507018-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package
+349 silly lockFile af09980f-9885-0-19417313253507018-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package
+350 info retry fetch attempt 1 at 11:52:30
+351 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/tmp.tgz
+352 silly lockFile e3060646-9885-0-19417313253507018-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/tmp.tgz
+353 silly lockFile e3060646-9885-0-19417313253507018-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/tmp.tgz
+354 silly lockFile ee8f1aca-mocha-1-14-0 mocha@1.14.0
+355 silly lockFile ee8f1aca-mocha-1-14-0 mocha@1.14.0
+356 http GET https://fullfatdb.npmjs.com/registry/karma-phantomjs-launcher/karma-phantomjs-launcher-0.0.3.tgz
+357 silly lockFile e9395643-mocha-1-14-0 mocha@~1.14.0
+358 silly lockFile e9395643-mocha-1-14-0 mocha@~1.14.0
+359 verbose tar pack [ '/home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz',
+359 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package' ]
+360 verbose tarball /home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+361 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package
+362 silly lockFile af09980f-9885-0-19417313253507018-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package
+363 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package /home/tim/.npm/af09980f-9885-0-19417313253507018-package.lock
+364 silly lockFile 09b72986--contrib-clean-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+365 verbose lock tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz /home/tim/.npm/09b72986--contrib-clean-0-4-1-package-tgz.lock
+366 silly addNameRange number 2 { name: 'karma', range: '>=0.9.2-0 <0.10.0-0', hasData: true }
+367 silly addNameRange versions [ 'karma',
+367 silly addNameRange   [ '0.8.0',
+367 silly addNameRange     '0.9.0-dart',
+367 silly addNameRange     '0.8.1',
+367 silly addNameRange     '0.8.2',
+367 silly addNameRange     '0.8.3',
+367 silly addNameRange     '0.9.0',
+367 silly addNameRange     '0.8.4',
+367 silly addNameRange     '0.9.1',
+367 silly addNameRange     '0.8.5',
+367 silly addNameRange     '0.9.2',
+367 silly addNameRange     '0.9.2-dart',
+367 silly addNameRange     '0.9.3',
+367 silly addNameRange     '0.8.6',
+367 silly addNameRange     '0.9.4',
+367 silly addNameRange     '0.8.7',
+367 silly addNameRange     '0.9.5',
+367 silly addNameRange     '0.9.6',
+367 silly addNameRange     '0.8.8',
+367 silly addNameRange     '0.9.7',
+367 silly addNameRange     '0.9.8',
+367 silly addNameRange     '0.10.0',
+367 silly addNameRange     '0.10.1',
+367 silly addNameRange     '0.10.2',
+367 silly addNameRange     '0.11.0',
+367 silly addNameRange     '0.11.1',
+367 silly addNameRange     '0.10.3',
+367 silly addNameRange     '0.10.4',
+367 silly addNameRange     '0.11.2',
+367 silly addNameRange     '0.11.3',
+367 silly addNameRange     '0.10.5',
+367 silly addNameRange     '0.11.4',
+367 silly addNameRange     '0.11.5',
+367 silly addNameRange     '0.10.6',
+367 silly addNameRange     '0.11.6',
+367 silly addNameRange     '0.10.7',
+367 silly addNameRange     '0.11.7',
+367 silly addNameRange     '0.11.8',
+367 silly addNameRange     '0.11.9',
+367 silly addNameRange     '0.10.8',
+367 silly addNameRange     '0.11.10',
+367 silly addNameRange     '0.11.11',
+367 silly addNameRange     '0.11.12',
+367 silly addNameRange     '0.11.11-dev',
+367 silly addNameRange     '0.10.9',
+367 silly addNameRange     '0.11.12-dev',
+367 silly addNameRange     '0.11.12-dev2',
+367 silly addNameRange     '0.11.13',
+367 silly addNameRange     '0.11.14' ] ]
+368 verbose addNamed [ 'karma', '0.9.8' ]
+369 verbose addNamed [ '0.9.8', '0.9.8' ]
+370 silly lockFile fcd40d90-karma-0-9-8 karma@0.9.8
+371 verbose lock karma@0.9.8 /home/tim/.npm/fcd40d90-karma-0-9-8.lock
+372 silly lockFile 09858036-m-registry-karma-karma-0-9-8-tgz https://fullfatdb.npmjs.com/registry/karma/karma-0.9.8.tgz
+373 verbose lock https://fullfatdb.npmjs.com/registry/karma/karma-0.9.8.tgz /home/tim/.npm/09858036-m-registry-karma-karma-0-9-8-tgz.lock
+374 verbose addRemoteTarball [ 'https://fullfatdb.npmjs.com/registry/karma/karma-0.9.8.tgz',
+374 verbose addRemoteTarball   '86f9bd066f6b43eb994a19ef4e197c610f0556fd' ]
+375 info retry fetch attempt 1 at 11:52:30
+376 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/tmp.tgz
+377 http GET https://fullfatdb.npmjs.com/registry/karma/karma-0.9.8.tgz
+378 silly lockFile ea855f3a-49832-0-1243501107674092-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package
+379 silly lockFile ea855f3a-49832-0-1243501107674092-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package
+380 silly lockFile 18621c13-49832-0-1243501107674092-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/tmp.tgz
+381 silly lockFile 18621c13-49832-0-1243501107674092-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/tmp.tgz
+382 verbose tar pack [ '/home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz',
+382 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package' ]
+383 verbose tarball /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+384 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package
+385 silly lockFile ea855f3a-49832-0-1243501107674092-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package
+386 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package /home/tim/.npm/ea855f3a-49832-0-1243501107674092-package.lock
+387 silly lockFile 7e2caf69-trib-requirejs-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+388 verbose lock tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz /home/tim/.npm/7e2caf69-trib-requirejs-0-4-1-package-tgz.lock
+389 http 200 http://10.0.0.179:5984/registry/grunt
+390 silly registry.get cb [ 200,
+390 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R14B04)',
+390 silly registry.get     etag: '"583-83044082b171c5e227808fae7af79e0d"',
+390 silly registry.get     date: 'Thu, 20 Feb 2014 16:52:29 GMT',
+390 silly registry.get     'content-type': 'application/json',
+390 silly registry.get     'content-length': '218109',
+390 silly registry.get     'cache-control': 'must-revalidate' } ]
+391 http 200 https://fullfatdb.npmjs.com/registry/karma-mocha/karma-mocha-0.1.1.tgz
+392 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/tmp.tgz
+393 silly lockFile 8935a3aa-0057-0-04910395108163357-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package
+394 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package /home/tim/.npm/8935a3aa-0057-0-04910395108163357-package.lock
+395 silly lockFile 2c83e2fb-0057-0-04910395108163357-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/tmp.tgz
+396 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/tmp.tgz /home/tim/.npm/2c83e2fb-0057-0-04910395108163357-tmp-tgz.lock
+397 silly addNameRange number 2 { name: 'grunt', range: '>=0.4.1-0 <0.5.0-0', hasData: true }
+398 silly addNameRange versions [ 'grunt',
+398 silly addNameRange   [ '0.1.0',
+398 silly addNameRange     '0.1.1',
+398 silly addNameRange     '0.1.2',
+398 silly addNameRange     '0.2.0',
+398 silly addNameRange     '0.2.1',
+398 silly addNameRange     '0.2.2',
+398 silly addNameRange     '0.2.3',
+398 silly addNameRange     '0.2.4',
+398 silly addNameRange     '0.2.5',
+398 silly addNameRange     '0.2.6',
+398 silly addNameRange     '0.2.7',
+398 silly addNameRange     '0.2.8',
+398 silly addNameRange     '0.2.9',
+398 silly addNameRange     '0.2.10',
+398 silly addNameRange     '0.2.11',
+398 silly addNameRange     '0.2.12',
+398 silly addNameRange     '0.2.13',
+398 silly addNameRange     '0.2.14',
+398 silly addNameRange     '0.2.15',
+398 silly addNameRange     '0.3.0',
+398 silly addNameRange     '0.3.1',
+398 silly addNameRange     '0.3.2',
+398 silly addNameRange     '0.3.3',
+398 silly addNameRange     '0.3.4',
+398 silly addNameRange     '0.3.5',
+398 silly addNameRange     '0.3.6',
+398 silly addNameRange     '0.3.7',
+398 silly addNameRange     '0.3.8',
+398 silly addNameRange     '0.3.9',
+398 silly addNameRange     '0.3.10',
+398 silly addNameRange     '0.3.11',
+398 silly addNameRange     '0.3.12',
+398 silly addNameRange     '0.3.13a',
+398 silly addNameRange     '0.3.13',
+398 silly addNameRange     '0.3.14',
+398 silly addNameRange     '0.3.15',
+398 silly addNameRange     '0.3.16',
+398 silly addNameRange     '0.3.17',
+398 silly addNameRange     '0.4.0a',
+398 silly addNameRange     '0.4.0rc1',
+398 silly addNameRange     '0.4.0rc2',
+398 silly addNameRange     '0.4.0rc3',
+398 silly addNameRange     '0.4.0rc4',
+398 silly addNameRange     '0.4.0rc5',
+398 silly addNameRange     '0.4.0rc6',
+398 silly addNameRange     '0.4.0rc7',
+398 silly addNameRange     '0.4.0rc8',
+398 silly addNameRange     '0.4.0',
+398 silly addNameRange     '0.4.1',
+398 silly addNameRange     '0.4.2' ] ]
+399 verbose addNamed [ 'grunt', '0.4.2' ]
+400 verbose addNamed [ '0.4.2', '0.4.2' ]
+401 silly lockFile 1a580867-grunt-0-4-2 grunt@0.4.2
+402 verbose lock grunt@0.4.2 /home/tim/.npm/1a580867-grunt-0-4-2.lock
+403 silly gunzTarPerm modes [ '755', '644' ]
+404 silly lockFile a559f58e-4-registry-grunt-grunt-0-4-2-tgz http://fullfatdb.npmjs.com:15984/registry/grunt/grunt-0.4.2.tgz
+405 verbose lock http://fullfatdb.npmjs.com:15984/registry/grunt/grunt-0.4.2.tgz /home/tim/.npm/a559f58e-4-registry-grunt-grunt-0-4-2-tgz.lock
+406 verbose addRemoteTarball [ 'http://fullfatdb.npmjs.com:15984/registry/grunt/grunt-0.4.2.tgz',
+406 verbose addRemoteTarball   '895b4f28a6102bffd41d365a65e8be2d6a293d93' ]
+407 info retry fetch attempt 1 at 11:52:30
+408 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915150331-0.3894081322941929/tmp.tgz
+409 silly gunzTarPerm extractEntry package.json
+410 http GET http://fullfatdb.npmjs.com:15984/registry/grunt/grunt-0.4.2.tgz
+411 silly gunzTarPerm extractEntry LICENSE
+412 silly gunzTarPerm extractEntry lib/adapter.js
+413 http 200 https://fullfatdb.npmjs.com/registry/karma/karma-0.9.8.tgz
+414 silly gunzTarPerm extractEntry lib/index.js
+415 silly lockFile af09980f-9885-0-19417313253507018-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package
+416 silly lockFile af09980f-9885-0-19417313253507018-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.19417313253507018/package
+417 silly lockFile 09b72986--contrib-clean-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+418 silly lockFile 09b72986--contrib-clean-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+419 silly lockFile 2c7d8028-runt-contrib-clean-0-4-1-package /home/tim/.npm/grunt-contrib-clean/0.4.1/package
+420 verbose lock /home/tim/.npm/grunt-contrib-clean/0.4.1/package /home/tim/.npm/2c7d8028-runt-contrib-clean-0-4-1-package.lock
+421 silly lockFile 2c7d8028-runt-contrib-clean-0-4-1-package /home/tim/.npm/grunt-contrib-clean/0.4.1/package
+422 silly lockFile 2c7d8028-runt-contrib-clean-0-4-1-package /home/tim/.npm/grunt-contrib-clean/0.4.1/package
+423 verbose tar unpack /home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+424 silly lockFile 112efd1f-runt-contrib-clean-0-4-1-package tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package
+425 verbose lock tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package /home/tim/.npm/112efd1f-runt-contrib-clean-0-4-1-package.lock
+426 silly lockFile 09b72986--contrib-clean-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+427 verbose lock tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz /home/tim/.npm/09b72986--contrib-clean-0-4-1-package-tgz.lock
+428 silly gunzTarPerm modes [ '755', '644' ]
+429 silly lockFile 8935a3aa-0057-0-04910395108163357-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package
+430 silly lockFile 8935a3aa-0057-0-04910395108163357-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package
+431 silly lockFile 2c83e2fb-0057-0-04910395108163357-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/tmp.tgz
+432 silly lockFile 2c83e2fb-0057-0-04910395108163357-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/tmp.tgz
+433 verbose tar pack [ '/home/tim/.npm/karma-mocha/0.1.1/package.tgz',
+433 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package' ]
+434 verbose tarball /home/tim/.npm/karma-mocha/0.1.1/package.tgz
+435 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package
+436 silly lockFile 8935a3aa-0057-0-04910395108163357-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package
+437 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package /home/tim/.npm/8935a3aa-0057-0-04910395108163357-package.lock
+438 silly lockFile 6578c0c6-pm-karma-mocha-0-1-1-package-tgz tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz
+439 verbose lock tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz /home/tim/.npm/6578c0c6-pm-karma-mocha-0-1-1-package-tgz.lock
+440 silly gunzTarPerm extractEntry package.json
+441 silly lockFile ea855f3a-49832-0-1243501107674092-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package
+442 silly lockFile ea855f3a-49832-0-1243501107674092-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149832-0.1243501107674092/package
+443 silly lockFile 7e2caf69-trib-requirejs-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+444 silly lockFile 7e2caf69-trib-requirejs-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+445 silly gunzTarPerm extractEntry .npmignore
+446 silly gunzTarPerm extractEntry README.md
+447 silly lockFile 40ad52dc--contrib-requirejs-0-4-1-package /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package
+448 verbose lock /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package /home/tim/.npm/40ad52dc--contrib-requirejs-0-4-1-package.lock
+449 silly lockFile 40ad52dc--contrib-requirejs-0-4-1-package /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package
+450 silly lockFile 40ad52dc--contrib-requirejs-0-4-1-package /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package
+451 verbose tar unpack /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+452 silly lockFile de4b2e6e--contrib-requirejs-0-4-1-package tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package
+453 verbose lock tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package /home/tim/.npm/de4b2e6e--contrib-requirejs-0-4-1-package.lock
+454 silly lockFile 7e2caf69-trib-requirejs-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+455 verbose lock tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz /home/tim/.npm/7e2caf69-trib-requirejs-0-4-1-package-tgz.lock
+456 silly gunzTarPerm extractEntry Gruntfile.js
+457 silly gunzTarPerm extractEntry CHANGELOG
+458 silly gunzTarPerm modes [ '755', '644' ]
+459 silly gunzTarPerm extractEntry CONTRIBUTING.md
+460 silly gunzTarPerm extractEntry .jshintrc
+461 silly gunzTarPerm extractEntry package.json
+462 silly gunzTarPerm extractEntry .npmignore
+463 silly gunzTarPerm extractEntry README.md
+464 silly gunzTarPerm extractEntry LICENSE-MIT
+465 silly gunzTarPerm extractEntry .travis.yml
+466 silly gunzTarPerm extractEntry Gruntfile.js
+467 silly gunzTarPerm extractEntry CHANGELOG
+468 silly lockFile 8935a3aa-0057-0-04910395108163357-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package
+469 silly lockFile 8935a3aa-0057-0-04910395108163357-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150057-0.04910395108163357/package
+470 silly lockFile 6578c0c6-pm-karma-mocha-0-1-1-package-tgz tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz
+471 silly lockFile 6578c0c6-pm-karma-mocha-0-1-1-package-tgz tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz
+472 error fetch failed http://fullfatdb.npmjs.com:15984/registry/grunt/grunt-0.4.2.tgz
+473 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+474 silly gunzTarPerm extractEntry CONTRIBUTING.md
+475 silly gunzTarPerm extractEntry .jshintrc
+476 silly lockFile 4e7a3d59-im-npm-karma-mocha-0-1-1-package /home/tim/.npm/karma-mocha/0.1.1/package
+477 verbose lock /home/tim/.npm/karma-mocha/0.1.1/package /home/tim/.npm/4e7a3d59-im-npm-karma-mocha-0-1-1-package.lock
+478 silly gunzTarPerm extractEntry docs/clean-examples.md
+479 silly gunzTarPerm extractEntry docs/clean-options.md
+480 silly gunzTarPerm extractEntry docs/clean-overview.md
+481 silly gunzTarPerm extractEntry docs/overview.md
+482 silly gunzTarPerm extractEntry AUTHORS
+483 silly gunzTarPerm extractEntry tasks/clean.js
+484 silly gunzTarPerm extractEntry test/clean_test.js
+485 silly gunzTarPerm extractEntry test/fixtures/sample_long/long.txt
+486 silly gunzTarPerm extractEntry test/fixtures/sample_short/short.txt
+487 silly lockFile 4e7a3d59-im-npm-karma-mocha-0-1-1-package /home/tim/.npm/karma-mocha/0.1.1/package
+488 silly lockFile 4e7a3d59-im-npm-karma-mocha-0-1-1-package /home/tim/.npm/karma-mocha/0.1.1/package
+489 verbose tar unpack /home/tim/.npm/karma-mocha/0.1.1/package.tgz
+490 silly lockFile 309585cb-im-npm-karma-mocha-0-1-1-package tar:///home/tim/.npm/karma-mocha/0.1.1/package
+491 verbose lock tar:///home/tim/.npm/karma-mocha/0.1.1/package /home/tim/.npm/309585cb-im-npm-karma-mocha-0-1-1-package.lock
+492 silly lockFile 6578c0c6-pm-karma-mocha-0-1-1-package-tgz tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz
+493 verbose lock tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz /home/tim/.npm/6578c0c6-pm-karma-mocha-0-1-1-package-tgz.lock
+494 silly gunzTarPerm modes [ '755', '644' ]
+495 http 200 https://fullfatdb.npmjs.com/registry/karma-coverage/karma-coverage-0.0.5.tgz
+496 silly gunzTarPerm extractEntry LICENSE-MIT
+497 silly gunzTarPerm extractEntry .travis.yml
+498 silly gunzTarPerm extractEntry package.json
+499 silly gunzTarPerm extractEntry LICENSE
+500 silly gunzTarPerm extractEntry lib/adapter.js
+501 silly gunzTarPerm extractEntry docs/overview.md
+502 silly gunzTarPerm extractEntry lib/index.js
+503 silly gunzTarPerm extractEntry docs/requirejs-examples.md
+504 silly gunzTarPerm extractEntry docs/requirejs-options.md
+505 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/tmp.tgz
+506 silly lockFile dabd7a1c-0079-0-26081829238682985-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package
+507 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package /home/tim/.npm/dabd7a1c-0079-0-26081829238682985-package.lock
+508 silly lockFile 240bba68-0079-0-26081829238682985-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/tmp.tgz
+509 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/tmp.tgz /home/tim/.npm/240bba68-0079-0-26081829238682985-tmp-tgz.lock
+510 silly gunzTarPerm modes [ '755', '644' ]
+511 silly gunzTarPerm extractEntry docs/requirejs-overview.md
+512 silly gunzTarPerm extractEntry AUTHORS
+513 silly gunzTarPerm extractEntry package.json
+514 silly gunzTarPerm extractEntry README.md
+515 silly gunzTarPerm extractEntry LICENSE
+516 silly gunzTarPerm extractEntry tasks/requirejs.js
+517 silly gunzTarPerm extractEntry test/requirejs_test.js
+518 silly gunzTarPerm extractEntry lib/index.js
+519 silly gunzTarPerm extractEntry lib/reporter.js
+520 silly gunzTarPerm extractEntry test/fixtures/hello.js
+521 silly gunzTarPerm extractEntry test/fixtures/project.js
+522 silly lockFile 309585cb-im-npm-karma-mocha-0-1-1-package tar:///home/tim/.npm/karma-mocha/0.1.1/package
+523 silly lockFile 309585cb-im-npm-karma-mocha-0-1-1-package tar:///home/tim/.npm/karma-mocha/0.1.1/package
+524 silly lockFile 6578c0c6-pm-karma-mocha-0-1-1-package-tgz tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz
+525 silly lockFile 6578c0c6-pm-karma-mocha-0-1-1-package-tgz tar:///home/tim/.npm/karma-mocha/0.1.1/package.tgz
+526 verbose chmod /home/tim/.npm/karma-mocha/0.1.1/package.tgz 644
+527 verbose chown /home/tim/.npm/karma-mocha/0.1.1/package.tgz [ 1000, 100 ]
+528 silly gunzTarPerm extractEntry lib/preprocessor.js
+529 silly gunzTarPerm extractEntry test/fixtures/world.js
+530 silly lockFile 8179585b-arma-mocha-karma-mocha-0-1-1-tgz https://fullfatdb.npmjs.com/registry/karma-mocha/karma-mocha-0.1.1.tgz
+531 silly lockFile 8179585b-arma-mocha-karma-mocha-0-1-1-tgz https://fullfatdb.npmjs.com/registry/karma-mocha/karma-mocha-0.1.1.tgz
+532 silly lockFile e113c83e-karma-mocha-0-1-1 karma-mocha@0.1.1
+533 silly lockFile e113c83e-karma-mocha-0-1-1 karma-mocha@0.1.1
+534 silly lockFile 5e411157-karma-mocha-0-1-1 karma-mocha@~0.1.1
+535 silly lockFile 5e411157-karma-mocha-0-1-1 karma-mocha@~0.1.1
+536 http 200 https://fullfatdb.npmjs.com/registry/grunt-karma/grunt-karma-0.5.4.tgz
+537 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/tmp.tgz
+538 silly lockFile 616f7da5-49932-0-5202529861126095-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package
+539 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package /home/tim/.npm/616f7da5-49932-0-5202529861126095-package.lock
+540 silly lockFile 17e23016-49932-0-5202529861126095-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/tmp.tgz
+541 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/tmp.tgz /home/tim/.npm/17e23016-49932-0-5202529861126095-tmp-tgz.lock
+542 silly gunzTarPerm modes [ '755', '644' ]
+543 silly gunzTarPerm extractEntry package.json
+544 silly lockFile dabd7a1c-0079-0-26081829238682985-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package
+545 silly lockFile dabd7a1c-0079-0-26081829238682985-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package
+546 silly lockFile 240bba68-0079-0-26081829238682985-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/tmp.tgz
+547 silly lockFile 240bba68-0079-0-26081829238682985-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/tmp.tgz
+548 verbose tar pack [ '/home/tim/.npm/karma-coverage/0.0.5/package.tgz',
+548 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package' ]
+549 verbose tarball /home/tim/.npm/karma-coverage/0.0.5/package.tgz
+550 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package
+551 silly lockFile dabd7a1c-0079-0-26081829238682985-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package
+552 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package /home/tim/.npm/dabd7a1c-0079-0-26081829238682985-package.lock
+553 silly lockFile e816f1bb-karma-coverage-0-0-5-package-tgz tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz
+554 verbose lock tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz /home/tim/.npm/e816f1bb-karma-coverage-0-0-5-package-tgz.lock
+555 silly gunzTarPerm extractEntry README.md
+556 silly gunzTarPerm extractEntry lodash.js
+557 silly gunzTarPerm extractEntry LICENSE.txt
+558 silly lockFile 112efd1f-runt-contrib-clean-0-4-1-package tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package
+559 silly lockFile 112efd1f-runt-contrib-clean-0-4-1-package tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package
+560 silly lockFile 09b72986--contrib-clean-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+561 silly lockFile 09b72986--contrib-clean-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz
+562 verbose chmod /home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz 644
+563 verbose chown /home/tim/.npm/grunt-contrib-clean/0.4.1/package.tgz [ 1000, 100 ]
+564 silly lockFile 15abd1cf-an-grunt-contrib-clean-0-4-1-tgz https://fullfatdb.npmjs.com/registry/grunt-contrib-clean/grunt-contrib-clean-0.4.1.tgz
+565 silly lockFile 15abd1cf-an-grunt-contrib-clean-0-4-1-tgz https://fullfatdb.npmjs.com/registry/grunt-contrib-clean/grunt-contrib-clean-0.4.1.tgz
+566 silly lockFile d4970290-grunt-contrib-clean-0-4-1 grunt-contrib-clean@0.4.1
+567 silly lockFile d4970290-grunt-contrib-clean-0-4-1 grunt-contrib-clean@0.4.1
+568 silly lockFile 6475a015-grunt-contrib-clean-0-4-1 grunt-contrib-clean@~0.4.1
+569 silly lockFile 6475a015-grunt-contrib-clean-0-4-1 grunt-contrib-clean@~0.4.1
+570 silly gunzTarPerm extractEntry dist/lodash.compat.js
+571 http 200 https://fullfatdb.npmjs.com/registry/karma-phantomjs-launcher/karma-phantomjs-launcher-0.0.3.tgz
+572 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/tmp.tgz
+573 silly lockFile ab7f04a8-50210-0-5957420484628528-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package
+574 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package /home/tim/.npm/ab7f04a8-50210-0-5957420484628528-package.lock
+575 silly lockFile ca2c8727-50210-0-5957420484628528-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/tmp.tgz
+576 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/tmp.tgz /home/tim/.npm/ca2c8727-50210-0-5957420484628528-tmp-tgz.lock
+577 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/tmp.tgz
+578 silly lockFile 11597940-0162-0-14220035099424422-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package
+579 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package /home/tim/.npm/11597940-0162-0-14220035099424422-package.lock
+580 silly lockFile 58ce8fc3-0162-0-14220035099424422-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/tmp.tgz
+581 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/tmp.tgz /home/tim/.npm/58ce8fc3-0162-0-14220035099424422-tmp-tgz.lock
+582 silly gunzTarPerm modes [ '755', '644' ]
+583 silly gunzTarPerm modes [ '755', '644' ]
+584 silly lockFile de4b2e6e--contrib-requirejs-0-4-1-package tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package
+585 silly lockFile de4b2e6e--contrib-requirejs-0-4-1-package tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package
+586 silly lockFile 7e2caf69-trib-requirejs-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+587 silly lockFile 7e2caf69-trib-requirejs-0-4-1-package-tgz tar:///home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz
+588 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+589 verbose chmod /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz 644
+590 verbose chown /home/tim/.npm/grunt-contrib-requirejs/0.4.1/package.tgz [ 1000, 100 ]
+591 silly gunzTarPerm extractEntry package.json
+592 silly gunzTarPerm extractEntry package.json
+593 silly lockFile a2538328-runt-contrib-requirejs-0-4-1-tgz https://fullfatdb.npmjs.com/registry/grunt-contrib-requirejs/grunt-contrib-requirejs-0.4.1.tgz
+594 silly lockFile a2538328-runt-contrib-requirejs-0-4-1-tgz https://fullfatdb.npmjs.com/registry/grunt-contrib-requirejs/grunt-contrib-requirejs-0.4.1.tgz
+595 silly lockFile 5da43736-grunt-contrib-requirejs-0-4-1 grunt-contrib-requirejs@0.4.1
+596 silly lockFile 5da43736-grunt-contrib-requirejs-0-4-1 grunt-contrib-requirejs@0.4.1
+597 silly lockFile de923408-grunt-contrib-requirejs-0-4-0 grunt-contrib-requirejs@~0.4.0
+598 silly lockFile de923408-grunt-contrib-requirejs-0-4-0 grunt-contrib-requirejs@~0.4.0
+599 silly gunzTarPerm extractEntry README.md
+600 silly gunzTarPerm extractEntry LICENSE
+601 silly gunzTarPerm extractEntry .npmignore
+602 silly gunzTarPerm extractEntry README.md
+603 silly lockFile dabd7a1c-0079-0-26081829238682985-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package
+604 silly lockFile dabd7a1c-0079-0-26081829238682985-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150079-0.26081829238682985/package
+605 silly lockFile e816f1bb-karma-coverage-0-0-5-package-tgz tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz
+606 silly lockFile e816f1bb-karma-coverage-0-0-5-package-tgz tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz
+607 silly lockFile e95c400f-npm-karma-coverage-0-0-5-package /home/tim/.npm/karma-coverage/0.0.5/package
+608 verbose lock /home/tim/.npm/karma-coverage/0.0.5/package /home/tim/.npm/e95c400f-npm-karma-coverage-0-0-5-package.lock
+609 silly gunzTarPerm extractEntry index.js
+610 silly gunzTarPerm extractEntry LICENSE
+611 silly gunzTarPerm extractEntry Gruntfile.js
+612 silly lockFile e95c400f-npm-karma-coverage-0-0-5-package /home/tim/.npm/karma-coverage/0.0.5/package
+613 silly lockFile e95c400f-npm-karma-coverage-0-0-5-package /home/tim/.npm/karma-coverage/0.0.5/package
+614 verbose tar unpack /home/tim/.npm/karma-coverage/0.0.5/package.tgz
+615 silly lockFile 259b7b7a-npm-karma-coverage-0-0-5-package tar:///home/tim/.npm/karma-coverage/0.0.5/package
+616 verbose lock tar:///home/tim/.npm/karma-coverage/0.0.5/package /home/tim/.npm/259b7b7a-npm-karma-coverage-0-0-5-package.lock
+617 silly lockFile e816f1bb-karma-coverage-0-0-5-package-tgz tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz
+618 verbose lock tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz /home/tim/.npm/e816f1bb-karma-coverage-0-0-5-package-tgz.lock
+619 silly gunzTarPerm modes [ '755', '644' ]
+620 silly gunzTarPerm extractEntry .idea/.name
+621 silly gunzTarPerm extractEntry .idea/dictionaries/dave.xml
+622 silly gunzTarPerm extractEntry package.json
+623 silly gunzTarPerm extractEntry README.md
+624 silly gunzTarPerm extractEntry LICENSE
+625 silly gunzTarPerm extractEntry .idea/encodings.xml
+626 silly gunzTarPerm extractEntry .idea/grunt-karma.iml
+627 silly gunzTarPerm extractEntry lib/index.js
+628 silly gunzTarPerm extractEntry lib/preprocessor.js
+629 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+630 silly lockFile ab7f04a8-50210-0-5957420484628528-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package
+631 silly lockFile ab7f04a8-50210-0-5957420484628528-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package
+632 silly gunzTarPerm extractEntry lib/reporter.js
+633 silly lockFile ca2c8727-50210-0-5957420484628528-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/tmp.tgz
+634 silly lockFile ca2c8727-50210-0-5957420484628528-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/tmp.tgz
+635 verbose tar pack [ '/home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz',
+635 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package' ]
+636 verbose tarball /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+637 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package
+638 silly lockFile ab7f04a8-50210-0-5957420484628528-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package
+639 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package /home/tim/.npm/ab7f04a8-50210-0-5957420484628528-package.lock
+640 silly lockFile 04d9366d-tomjs-launcher-0-0-3-package-tgz tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+641 verbose lock tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz /home/tim/.npm/04d9366d-tomjs-launcher-0-0-3-package-tgz.lock
+642 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+643 silly gunzTarPerm extractEntry .idea/misc.xml
+644 silly gunzTarPerm extractEntry .idea/modules.xml
+645 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+646 silly gunzTarPerm extractEntry .idea/vcs.xml
+647 silly gunzTarPerm extractEntry .idea/workspace.xml
+648 silly gunzTarPerm extractEntry TODO.md
+649 silly gunzTarPerm extractEntry lib/background.js
+650 silly gunzTarPerm extractEntry CHANGELOG.md
+651 silly gunzTarPerm extractEntry tasks/grunt-karma.js
+652 silly lockFile ab7f04a8-50210-0-5957420484628528-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package
+653 silly lockFile ab7f04a8-50210-0-5957420484628528-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150210-0.5957420484628528/package
+654 silly lockFile 04d9366d-tomjs-launcher-0-0-3-package-tgz tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+655 silly lockFile 04d9366d-tomjs-launcher-0-0-3-package-tgz tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+656 silly lockFile 9841c3e8-phantomjs-launcher-0-0-3-package /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package
+657 verbose lock /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package /home/tim/.npm/9841c3e8-phantomjs-launcher-0-0-3-package.lock
+658 silly lockFile 259b7b7a-npm-karma-coverage-0-0-5-package tar:///home/tim/.npm/karma-coverage/0.0.5/package
+659 silly lockFile 259b7b7a-npm-karma-coverage-0-0-5-package tar:///home/tim/.npm/karma-coverage/0.0.5/package
+660 silly lockFile e816f1bb-karma-coverage-0-0-5-package-tgz tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz
+661 silly lockFile e816f1bb-karma-coverage-0-0-5-package-tgz tar:///home/tim/.npm/karma-coverage/0.0.5/package.tgz
+662 silly lockFile 9841c3e8-phantomjs-launcher-0-0-3-package /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package
+663 silly lockFile 9841c3e8-phantomjs-launcher-0-0-3-package /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package
+664 verbose tar unpack /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+665 silly lockFile fd8e3df8-phantomjs-launcher-0-0-3-package tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package
+666 verbose lock tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package /home/tim/.npm/fd8e3df8-phantomjs-launcher-0-0-3-package.lock
+667 silly lockFile 04d9366d-tomjs-launcher-0-0-3-package-tgz tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+668 verbose lock tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz /home/tim/.npm/04d9366d-tomjs-launcher-0-0-3-package-tgz.lock
+669 verbose chmod /home/tim/.npm/karma-coverage/0.0.5/package.tgz 644
+670 verbose chown /home/tim/.npm/karma-coverage/0.0.5/package.tgz [ 1000, 100 ]
+671 silly gunzTarPerm extractEntry test/grunt-karma-test.js
+672 silly lockFile 2e0181bc-overage-karma-coverage-0-0-5-tgz https://fullfatdb.npmjs.com/registry/karma-coverage/karma-coverage-0.0.5.tgz
+673 silly lockFile 2e0181bc-overage-karma-coverage-0-0-5-tgz https://fullfatdb.npmjs.com/registry/karma-coverage/karma-coverage-0.0.5.tgz
+674 silly gunzTarPerm modes [ '755', '644' ]
+675 silly lockFile 147c96d0-karma-coverage-0-0-5 karma-coverage@0.0.5
+676 silly lockFile 147c96d0-karma-coverage-0-0-5 karma-coverage@0.0.5
+677 silly lockFile d51cabef-karma-coverage-0-0-2 karma-coverage@~0.0.2
+678 silly lockFile d51cabef-karma-coverage-0-0-2 karma-coverage@~0.0.2
+679 silly gunzTarPerm extractEntry package.json
+680 silly gunzTarPerm extractEntry README.md
+681 silly gunzTarPerm extractEntry LICENSE
+682 silly gunzTarPerm extractEntry index.js
+683 silly lockFile fd8e3df8-phantomjs-launcher-0-0-3-package tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package
+684 silly lockFile fd8e3df8-phantomjs-launcher-0-0-3-package tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package
+685 silly lockFile 04d9366d-tomjs-launcher-0-0-3-package-tgz tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+686 silly lockFile 04d9366d-tomjs-launcher-0-0-3-package-tgz tar:///home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz
+687 verbose chmod /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz 644
+688 verbose chown /home/tim/.npm/karma-phantomjs-launcher/0.0.3/package.tgz [ 1000, 100 ]
+689 silly lockFile 31015066-rma-phantomjs-launcher-0-0-3-tgz https://fullfatdb.npmjs.com/registry/karma-phantomjs-launcher/karma-phantomjs-launcher-0.0.3.tgz
+690 silly lockFile 31015066-rma-phantomjs-launcher-0-0-3-tgz https://fullfatdb.npmjs.com/registry/karma-phantomjs-launcher/karma-phantomjs-launcher-0.0.3.tgz
+691 silly lockFile 3f25bca7-karma-phantomjs-launcher-0-0-3 karma-phantomjs-launcher@0.0.3
+692 silly lockFile 3f25bca7-karma-phantomjs-launcher-0-0-3 karma-phantomjs-launcher@0.0.3
+693 silly lockFile 81b32b8a-karma-phantomjs-launcher-0-0-2 karma-phantomjs-launcher@~0.0.2
+694 silly lockFile 81b32b8a-karma-phantomjs-launcher-0-0-2 karma-phantomjs-launcher@~0.0.2
+695 silly lockFile 11597940-0162-0-14220035099424422-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package
+696 silly lockFile 11597940-0162-0-14220035099424422-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package
+697 silly lockFile 58ce8fc3-0162-0-14220035099424422-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/tmp.tgz
+698 silly lockFile 58ce8fc3-0162-0-14220035099424422-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/tmp.tgz
+699 verbose tar pack [ '/home/tim/.npm/grunt-karma/0.5.4/package.tgz',
+699 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package' ]
+700 verbose tarball /home/tim/.npm/grunt-karma/0.5.4/package.tgz
+701 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package
+702 silly lockFile 11597940-0162-0-14220035099424422-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package
+703 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package /home/tim/.npm/11597940-0162-0-14220035099424422-package.lock
+704 silly lockFile 427c46cf-pm-grunt-karma-0-5-4-package-tgz tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz
+705 verbose lock tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz /home/tim/.npm/427c46cf-pm-grunt-karma-0-5-4-package-tgz.lock
+706 silly gunzTarPerm extractEntry dist/lodash.js
+707 silly gunzTarPerm extractEntry dist/lodash.min.js
+708 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+709 silly lockFile 11597940-0162-0-14220035099424422-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package
+710 silly lockFile 11597940-0162-0-14220035099424422-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150162-0.14220035099424422/package
+711 silly lockFile 427c46cf-pm-grunt-karma-0-5-4-package-tgz tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz
+712 silly lockFile 427c46cf-pm-grunt-karma-0-5-4-package-tgz tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz
+713 silly lockFile bb5e3f6c-im-npm-grunt-karma-0-5-4-package /home/tim/.npm/grunt-karma/0.5.4/package
+714 verbose lock /home/tim/.npm/grunt-karma/0.5.4/package /home/tim/.npm/bb5e3f6c-im-npm-grunt-karma-0-5-4-package.lock
+715 silly lockFile bb5e3f6c-im-npm-grunt-karma-0-5-4-package /home/tim/.npm/grunt-karma/0.5.4/package
+716 silly lockFile bb5e3f6c-im-npm-grunt-karma-0-5-4-package /home/tim/.npm/grunt-karma/0.5.4/package
+717 verbose tar unpack /home/tim/.npm/grunt-karma/0.5.4/package.tgz
+718 silly lockFile 0a493d8a-im-npm-grunt-karma-0-5-4-package tar:///home/tim/.npm/grunt-karma/0.5.4/package
+719 verbose lock tar:///home/tim/.npm/grunt-karma/0.5.4/package /home/tim/.npm/0a493d8a-im-npm-grunt-karma-0-5-4-package.lock
+720 silly lockFile 427c46cf-pm-grunt-karma-0-5-4-package-tgz tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz
+721 verbose lock tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz /home/tim/.npm/427c46cf-pm-grunt-karma-0-5-4-package-tgz.lock
+722 silly gunzTarPerm modes [ '755', '644' ]
+723 silly gunzTarPerm extractEntry package.json
+724 silly gunzTarPerm extractEntry .npmignore
+725 silly gunzTarPerm extractEntry README.md
+726 silly gunzTarPerm extractEntry LICENSE
+727 silly gunzTarPerm extractEntry Gruntfile.js
+728 silly gunzTarPerm extractEntry .idea/.name
+729 silly gunzTarPerm extractEntry .idea/dictionaries/dave.xml
+730 silly gunzTarPerm extractEntry .idea/encodings.xml
+731 silly gunzTarPerm extractEntry .idea/grunt-karma.iml
+732 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+733 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+734 silly gunzTarPerm extractEntry .idea/misc.xml
+735 silly gunzTarPerm extractEntry .idea/modules.xml
+736 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+737 silly gunzTarPerm extractEntry .idea/vcs.xml
+738 silly gunzTarPerm extractEntry .idea/workspace.xml
+739 silly gunzTarPerm extractEntry TODO.md
+740 silly gunzTarPerm extractEntry lib/background.js
+741 silly gunzTarPerm extractEntry CHANGELOG.md
+742 silly gunzTarPerm extractEntry tasks/grunt-karma.js
+743 silly gunzTarPerm extractEntry test/grunt-karma-test.js
+744 silly lockFile 0a493d8a-im-npm-grunt-karma-0-5-4-package tar:///home/tim/.npm/grunt-karma/0.5.4/package
+745 silly lockFile 0a493d8a-im-npm-grunt-karma-0-5-4-package tar:///home/tim/.npm/grunt-karma/0.5.4/package
+746 silly lockFile 427c46cf-pm-grunt-karma-0-5-4-package-tgz tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz
+747 silly lockFile 427c46cf-pm-grunt-karma-0-5-4-package-tgz tar:///home/tim/.npm/grunt-karma/0.5.4/package.tgz
+748 verbose chmod /home/tim/.npm/grunt-karma/0.5.4/package.tgz 644
+749 verbose chown /home/tim/.npm/grunt-karma/0.5.4/package.tgz [ 1000, 100 ]
+750 silly lockFile 5cdd71f1-runt-karma-grunt-karma-0-5-4-tgz https://fullfatdb.npmjs.com/registry/grunt-karma/grunt-karma-0.5.4.tgz
+751 silly lockFile 5cdd71f1-runt-karma-grunt-karma-0-5-4-tgz https://fullfatdb.npmjs.com/registry/grunt-karma/grunt-karma-0.5.4.tgz
+752 silly lockFile f1e0f8fe-grunt-karma-0-5-4 grunt-karma@0.5.4
+753 silly lockFile f1e0f8fe-grunt-karma-0-5-4 grunt-karma@0.5.4
+754 silly lockFile 21c0de9e-grunt-karma-0-5-1 grunt-karma@~0.5.1
+755 silly lockFile 21c0de9e-grunt-karma-0-5-1 grunt-karma@~0.5.1
+756 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+757 silly lockFile 616f7da5-49932-0-5202529861126095-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package
+758 silly lockFile 616f7da5-49932-0-5202529861126095-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package
+759 silly lockFile 17e23016-49932-0-5202529861126095-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/tmp.tgz
+760 silly lockFile 17e23016-49932-0-5202529861126095-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/tmp.tgz
+761 verbose tar pack [ '/home/tim/.npm/lodash/2.2.1/package.tgz',
+761 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package' ]
+762 verbose tarball /home/tim/.npm/lodash/2.2.1/package.tgz
+763 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package
+764 silly lockFile 616f7da5-49932-0-5202529861126095-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package
+765 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package /home/tim/.npm/616f7da5-49932-0-5202529861126095-package.lock
+766 silly lockFile 77688a92-tim-npm-lodash-2-2-1-package-tgz tar:///home/tim/.npm/lodash/2.2.1/package.tgz
+767 verbose lock tar:///home/tim/.npm/lodash/2.2.1/package.tgz /home/tim/.npm/77688a92-tim-npm-lodash-2-2-1-package-tgz.lock
+768 silly lockFile 616f7da5-49932-0-5202529861126095-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package
+769 silly lockFile 616f7da5-49932-0-5202529861126095-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915149932-0.5202529861126095/package
+770 silly lockFile 77688a92-tim-npm-lodash-2-2-1-package-tgz tar:///home/tim/.npm/lodash/2.2.1/package.tgz
+771 silly lockFile 77688a92-tim-npm-lodash-2-2-1-package-tgz tar:///home/tim/.npm/lodash/2.2.1/package.tgz
+772 silly lockFile e3aafab6-ome-tim-npm-lodash-2-2-1-package /home/tim/.npm/lodash/2.2.1/package
+773 verbose lock /home/tim/.npm/lodash/2.2.1/package /home/tim/.npm/e3aafab6-ome-tim-npm-lodash-2-2-1-package.lock
+774 silly lockFile e3aafab6-ome-tim-npm-lodash-2-2-1-package /home/tim/.npm/lodash/2.2.1/package
+775 silly lockFile e3aafab6-ome-tim-npm-lodash-2-2-1-package /home/tim/.npm/lodash/2.2.1/package
+776 verbose tar unpack /home/tim/.npm/lodash/2.2.1/package.tgz
+777 silly lockFile c3146e1c-ome-tim-npm-lodash-2-2-1-package tar:///home/tim/.npm/lodash/2.2.1/package
+778 verbose lock tar:///home/tim/.npm/lodash/2.2.1/package /home/tim/.npm/c3146e1c-ome-tim-npm-lodash-2-2-1-package.lock
+779 silly lockFile 77688a92-tim-npm-lodash-2-2-1-package-tgz tar:///home/tim/.npm/lodash/2.2.1/package.tgz
+780 verbose lock tar:///home/tim/.npm/lodash/2.2.1/package.tgz /home/tim/.npm/77688a92-tim-npm-lodash-2-2-1-package-tgz.lock
+781 silly gunzTarPerm modes [ '755', '644' ]
+782 silly gunzTarPerm extractEntry package.json
+783 silly gunzTarPerm extractEntry README.md
+784 silly gunzTarPerm extractEntry lodash.js
+785 silly gunzTarPerm extractEntry LICENSE.txt
+786 silly gunzTarPerm extractEntry dist/lodash.compat.js
+787 silly gunzTarPerm extractEntry dist/lodash.compat.min.js
+788 silly gunzTarPerm extractEntry dist/lodash.js
+789 silly gunzTarPerm extractEntry dist/lodash.min.js
+790 silly gunzTarPerm extractEntry dist/lodash.underscore.js
+791 silly gunzTarPerm extractEntry dist/lodash.underscore.min.js
+792 silly lockFile c3146e1c-ome-tim-npm-lodash-2-2-1-package tar:///home/tim/.npm/lodash/2.2.1/package
+793 silly lockFile c3146e1c-ome-tim-npm-lodash-2-2-1-package tar:///home/tim/.npm/lodash/2.2.1/package
+794 silly lockFile 77688a92-tim-npm-lodash-2-2-1-package-tgz tar:///home/tim/.npm/lodash/2.2.1/package.tgz
+795 silly lockFile 77688a92-tim-npm-lodash-2-2-1-package-tgz tar:///home/tim/.npm/lodash/2.2.1/package.tgz
+796 verbose chmod /home/tim/.npm/lodash/2.2.1/package.tgz 644
+797 verbose chown /home/tim/.npm/lodash/2.2.1/package.tgz [ 1000, 100 ]
+798 silly lockFile cd54c922-registry-lodash-lodash-2-2-1-tgz https://fullfatdb.npmjs.com/registry/lodash/lodash-2.2.1.tgz
+799 silly lockFile cd54c922-registry-lodash-lodash-2-2-1-tgz https://fullfatdb.npmjs.com/registry/lodash/lodash-2.2.1.tgz
+800 silly lockFile 065ff042-lodash-2-2-1 lodash@2.2.1
+801 silly lockFile 065ff042-lodash-2-2-1 lodash@2.2.1
+802 silly lockFile c46ab6b5-lodash-2-2-1 lodash@~2.2.1
+803 silly lockFile c46ab6b5-lodash-2-2-1 lodash@~2.2.1
+804 verbose tar unpack /home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/tmp.tgz
+805 silly lockFile 94f1ce30-0249-0-42767207976430655-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package
+806 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package /home/tim/.npm/94f1ce30-0249-0-42767207976430655-package.lock
+807 silly lockFile eecf89a5-0249-0-42767207976430655-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/tmp.tgz
+808 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/tmp.tgz /home/tim/.npm/eecf89a5-0249-0-42767207976430655-tmp-tgz.lock
+809 silly gunzTarPerm modes [ '755', '644' ]
+810 silly gunzTarPerm extractEntry package.json
+811 silly gunzTarPerm extractEntry README.md
+812 silly gunzTarPerm extractEntry LICENSE
+813 silly gunzTarPerm extractEntry config.tpl.js
+814 silly gunzTarPerm extractEntry karma-completion.sh
+815 silly gunzTarPerm extractEntry CHANGELOG.md
+816 silly gunzTarPerm extractEntry bin/karma
+817 silly gunzTarPerm extractEntry lib/browser.js
+818 silly gunzTarPerm extractEntry lib/executor.js
+819 silly gunzTarPerm extractEntry lib/file-list.js
+820 silly gunzTarPerm extractEntry lib/helper.js
+821 silly gunzTarPerm extractEntry lib/events.js
+822 silly gunzTarPerm extractEntry lib/init.js
+823 silly gunzTarPerm extractEntry lib/launcher.js
+824 silly gunzTarPerm extractEntry lib/cli.js
+825 silly gunzTarPerm extractEntry lib/logger.js
+826 silly gunzTarPerm extractEntry lib/server.js
+827 silly gunzTarPerm extractEntry lib/constants.js
+828 silly gunzTarPerm extractEntry lib/plugin.js
+829 silly gunzTarPerm extractEntry lib/config.js
+830 silly gunzTarPerm extractEntry lib/preprocessor.js
+831 silly gunzTarPerm extractEntry lib/completion.js
+832 silly gunzTarPerm extractEntry lib/reporter.js
+833 silly gunzTarPerm extractEntry lib/watcher.js
+834 silly gunzTarPerm extractEntry lib/runner.js
+835 silly gunzTarPerm extractEntry lib/index.js
+836 silly gunzTarPerm extractEntry lib/web-server.js
+837 silly gunzTarPerm extractEntry lib/reporters/Base.js
+838 silly gunzTarPerm extractEntry lib/reporters/BaseColor.js
+839 silly gunzTarPerm extractEntry lib/reporters/Dots.js
+840 silly gunzTarPerm extractEntry lib/reporters/DotsColor.js
+841 silly gunzTarPerm extractEntry lib/reporters/Multi.js
+842 silly gunzTarPerm extractEntry lib/reporters/Progress.js
+843 silly gunzTarPerm extractEntry lib/reporters/ProgressColor.js
+844 silly gunzTarPerm extractEntry lib/runner.js.orig
+845 silly gunzTarPerm extractEntry lib/middleware/common.js
+846 silly gunzTarPerm extractEntry lib/middleware/karma.js
+847 silly gunzTarPerm extractEntry lib/middleware/proxy.js
+848 silly gunzTarPerm extractEntry lib/middleware/runner.js
+849 silly gunzTarPerm extractEntry lib/middleware/source-files.js
+850 silly gunzTarPerm extractEntry lib/server.js.orig
+851 silly gunzTarPerm extractEntry lib/cli.js.orig
+852 silly gunzTarPerm extractEntry lib/launchers/Base.js
+853 silly gunzTarPerm extractEntry config.tpl.coffee
+854 silly gunzTarPerm extractEntry static/karma.js
+855 silly gunzTarPerm extractEntry static/client.html
+856 silly gunzTarPerm extractEntry static/context.html
+857 silly gunzTarPerm extractEntry static/debug.html
+858 silly gunzTarPerm extractEntry test-results.xml
+859 silly gunzTarPerm extractEntry thesis.pdf
+860 silly lockFile 94f1ce30-0249-0-42767207976430655-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package
+861 silly lockFile 94f1ce30-0249-0-42767207976430655-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package
+862 silly lockFile eecf89a5-0249-0-42767207976430655-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/tmp.tgz
+863 silly lockFile eecf89a5-0249-0-42767207976430655-tmp-tgz tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/tmp.tgz
+864 verbose tar pack [ '/home/tim/.npm/karma/0.9.8/package.tgz',
+864 verbose tar pack   '/home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package' ]
+865 verbose tarball /home/tim/.npm/karma/0.9.8/package.tgz
+866 verbose folder /home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package
+867 silly lockFile 94f1ce30-0249-0-42767207976430655-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package
+868 verbose lock tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package /home/tim/.npm/94f1ce30-0249-0-42767207976430655-package.lock
+869 silly lockFile 2be203e5--tim-npm-karma-0-9-8-package-tgz tar:///home/tim/.npm/karma/0.9.8/package.tgz
+870 verbose lock tar:///home/tim/.npm/karma/0.9.8/package.tgz /home/tim/.npm/2be203e5--tim-npm-karma-0-9-8-package-tgz.lock
+871 silly lockFile 94f1ce30-0249-0-42767207976430655-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package
+872 silly lockFile 94f1ce30-0249-0-42767207976430655-package tar:///home/tim/tmp/npm-2017-CBMefX-T/1392915150249-0.42767207976430655/package
+873 silly lockFile 2be203e5--tim-npm-karma-0-9-8-package-tgz tar:///home/tim/.npm/karma/0.9.8/package.tgz
+874 silly lockFile 2be203e5--tim-npm-karma-0-9-8-package-tgz tar:///home/tim/.npm/karma/0.9.8/package.tgz
+875 silly lockFile 0e06bfc3-home-tim-npm-karma-0-9-8-package /home/tim/.npm/karma/0.9.8/package
+876 verbose lock /home/tim/.npm/karma/0.9.8/package /home/tim/.npm/0e06bfc3-home-tim-npm-karma-0-9-8-package.lock
+877 silly lockFile 0e06bfc3-home-tim-npm-karma-0-9-8-package /home/tim/.npm/karma/0.9.8/package
+878 silly lockFile 0e06bfc3-home-tim-npm-karma-0-9-8-package /home/tim/.npm/karma/0.9.8/package
+879 verbose tar unpack /home/tim/.npm/karma/0.9.8/package.tgz
+880 silly lockFile cdd6709e-home-tim-npm-karma-0-9-8-package tar:///home/tim/.npm/karma/0.9.8/package
+881 verbose lock tar:///home/tim/.npm/karma/0.9.8/package /home/tim/.npm/cdd6709e-home-tim-npm-karma-0-9-8-package.lock
+882 silly lockFile 2be203e5--tim-npm-karma-0-9-8-package-tgz tar:///home/tim/.npm/karma/0.9.8/package.tgz
+883 verbose lock tar:///home/tim/.npm/karma/0.9.8/package.tgz /home/tim/.npm/2be203e5--tim-npm-karma-0-9-8-package-tgz.lock
+884 silly gunzTarPerm modes [ '755', '644' ]
+885 silly gunzTarPerm extractEntry package.json
+886 silly gunzTarPerm extractEntry README.md
+887 silly gunzTarPerm extractEntry LICENSE
+888 silly gunzTarPerm extractEntry config.tpl.js
+889 silly gunzTarPerm extractEntry karma-completion.sh
+890 silly gunzTarPerm extractEntry CHANGELOG.md
+891 silly gunzTarPerm extractEntry bin/karma
+892 silly gunzTarPerm extractEntry lib/browser.js
+893 silly gunzTarPerm extractEntry lib/executor.js
+894 silly gunzTarPerm extractEntry lib/file-list.js
+895 silly gunzTarPerm extractEntry lib/helper.js
+896 silly gunzTarPerm extractEntry lib/events.js
+897 silly gunzTarPerm extractEntry lib/init.js
+898 silly gunzTarPerm extractEntry lib/launcher.js
+899 silly gunzTarPerm extractEntry lib/cli.js
+900 silly gunzTarPerm extractEntry lib/logger.js
+901 silly gunzTarPerm extractEntry lib/server.js
+902 silly gunzTarPerm extractEntry lib/constants.js
+903 silly gunzTarPerm extractEntry lib/plugin.js
+904 silly gunzTarPerm extractEntry lib/config.js
+905 silly gunzTarPerm extractEntry lib/preprocessor.js
+906 silly gunzTarPerm extractEntry lib/completion.js
+907 silly gunzTarPerm extractEntry lib/reporter.js
+908 silly gunzTarPerm extractEntry lib/watcher.js
+909 silly gunzTarPerm extractEntry lib/runner.js
+910 silly gunzTarPerm extractEntry lib/index.js
+911 silly gunzTarPerm extractEntry lib/web-server.js
+912 silly gunzTarPerm extractEntry lib/reporters/Base.js
+913 silly gunzTarPerm extractEntry lib/reporters/BaseColor.js
+914 silly gunzTarPerm extractEntry lib/reporters/Dots.js
+915 silly gunzTarPerm extractEntry lib/reporters/DotsColor.js
+916 silly gunzTarPerm extractEntry lib/reporters/Multi.js
+917 silly gunzTarPerm extractEntry lib/reporters/Progress.js
+918 silly gunzTarPerm extractEntry lib/reporters/ProgressColor.js
+919 silly gunzTarPerm extractEntry lib/runner.js.orig
+920 silly gunzTarPerm extractEntry lib/middleware/common.js
+921 silly gunzTarPerm extractEntry lib/middleware/karma.js
+922 silly gunzTarPerm extractEntry lib/middleware/proxy.js
+923 silly gunzTarPerm extractEntry lib/middleware/runner.js
+924 silly gunzTarPerm extractEntry lib/middleware/source-files.js
+925 silly gunzTarPerm extractEntry lib/server.js.orig
+926 silly gunzTarPerm extractEntry lib/cli.js.orig
+927 silly gunzTarPerm extractEntry lib/launchers/Base.js
+928 silly gunzTarPerm extractEntry config.tpl.coffee
+929 silly gunzTarPerm extractEntry static/karma.js
+930 silly gunzTarPerm extractEntry static/client.html
+931 silly gunzTarPerm extractEntry static/context.html
+932 silly gunzTarPerm extractEntry static/debug.html
+933 silly gunzTarPerm extractEntry test-results.xml
+934 silly gunzTarPerm extractEntry thesis.pdf
+935 silly lockFile cdd6709e-home-tim-npm-karma-0-9-8-package tar:///home/tim/.npm/karma/0.9.8/package
+936 silly lockFile cdd6709e-home-tim-npm-karma-0-9-8-package tar:///home/tim/.npm/karma/0.9.8/package
+937 silly lockFile 2be203e5--tim-npm-karma-0-9-8-package-tgz tar:///home/tim/.npm/karma/0.9.8/package.tgz
+938 silly lockFile 2be203e5--tim-npm-karma-0-9-8-package-tgz tar:///home/tim/.npm/karma/0.9.8/package.tgz
+939 verbose chmod /home/tim/.npm/karma/0.9.8/package.tgz 644
+940 verbose chown /home/tim/.npm/karma/0.9.8/package.tgz [ 1000, 100 ]
+941 silly lockFile 09858036-m-registry-karma-karma-0-9-8-tgz https://fullfatdb.npmjs.com/registry/karma/karma-0.9.8.tgz
+942 silly lockFile 09858036-m-registry-karma-karma-0-9-8-tgz https://fullfatdb.npmjs.com/registry/karma/karma-0.9.8.tgz
+943 silly lockFile fcd40d90-karma-0-9-8 karma@0.9.8
+944 silly lockFile fcd40d90-karma-0-9-8 karma@0.9.8
+945 silly lockFile ded05966-karma-0-9-2 karma@~0.9.2
+946 silly lockFile ded05966-karma-0-9-2 karma@~0.9.2
+947 info retry fetch attempt 2 at 11:52:39
+948 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.09229402360506356/tmp.tgz
+949 http GET http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+950 error fetch failed http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+951 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+952 info retry fetch attempt 2 at 11:52:40
+953 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915150331-0.3894081322941929/tmp.tgz
+954 http GET http://fullfatdb.npmjs.com:15984/registry/grunt/grunt-0.4.2.tgz
+955 error fetch failed http://fullfatdb.npmjs.com:15984/registry/grunt/grunt-0.4.2.tgz
+956 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+957 info retry fetch attempt 3 at 11:53:40
+958 verbose fetch to= /home/tim/tmp/npm-2017-CBMefX-T/1392915149885-0.09229402360506356/tmp.tgz
+959 http GET http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+960 error fetch failed http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+961 silly lockFile f1732994-t-grunt-contrib-jshint-0-7-2-tgz http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+962 silly lockFile f1732994-t-grunt-contrib-jshint-0-7-2-tgz http://fullfatdb.npmjs.com:15984/registry/grunt-contrib-jshint/grunt-contrib-jshint-0.7.2.tgz
+963 silly lockFile ee270f24-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@0.7.2
+964 silly lockFile ee270f24-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@0.7.2
+965 silly lockFile 31601194-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@~0.7.2
+966 silly lockFile 31601194-grunt-contrib-jshint-0-7-2 grunt-contrib-jshint@~0.7.2
+967 error Error: connect ECONNREFUSED
+967 error     at errnoException (net.js:901:11)
+967 error     at Object.afterConnect [as oncomplete] (net.js:892:19)
+967 error  { [Error: connect ECONNREFUSED]
+967 error   code: 'ECONNREFUSED',
+967 error   errno: 'ECONNREFUSED',
+967 error   syscall: 'connect',
+967 error   parent: 'layoutmanager' }
+968 error If you are behind a proxy, please make sure that the
+968 error 'proxy' config is set properly.  See: 'npm help config'
+969 error System Linux 3.13.2-1-ARCH
+970 error command "node" "/usr/bin/npm" "install"
+971 error cwd /home/tim/git/layoutmanager
+972 error node -v v0.10.25
+973 error npm -v 1.4.3
+974 error syscall connect
+975 error code ECONNREFUSED
+976 error errno ECONNREFUSED
+977 error stack Error: connect ECONNREFUSED
+977 error stack     at errnoException (net.js:901:11)
+977 error stack     at Object.afterConnect [as oncomplete] (net.js:892:19)
+978 verbose exit [ 1, true ]
