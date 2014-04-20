@@ -1,0 +1,3 @@
+[submodule "ractive"]
+	path = vendor/ractive
+	url = https://github.com/ractivejs/ractive

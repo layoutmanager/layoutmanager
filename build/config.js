@@ -5,8 +5,8 @@ require.config({
     main: "index.js"
   }, {
     name: "lodash",
-    location: "../bower_components/lodash-amd/modern",
-    main: "main.js"
+    location: "../bower_components/lodash-amd",
+    main: "modern/main.js"
   }],
 
   paths: {
